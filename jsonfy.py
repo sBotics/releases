@@ -4,7 +4,7 @@ import json
 datag = {
     "data": []
 }
-token = {"Authorization": "token  "}
+token = {"Authorization": "token f2f2a73729ad7256f8f419fce97c70e08ce139fb "}
 def WalkTree(data):
     for item in data:
         try:
@@ -44,7 +44,7 @@ for item in req:
         WalkTree(req2)
         print('-----Iniciando escrita do '+order[cont]+"-----")
         jsonr = json.dumps(datag)
-        jsonx = open(order[cont], 'a')
+        jsonx = open(order[cont], 'w')
         jsonx.write(jsonr)
         jsonx.close()
         datag = {
