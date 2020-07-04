@@ -4,16 +4,18 @@ import json
 datag = {
     "data": []
 }
-token = {"Authorization": "token f2f2a73729ad7256f8f419fce97c70e08ce139fb "}
+token = {"Authorization": "token defb9e804f1e1dc19948de333ac7509776f93116 "}
 def WalkTree(data):
     for item in data:
         try:
             if item["type"] == "file":
                 
                 path_parsed = urllib.parse.urlencode({"data":item["path"]})[5:]
+                path_normalized = item["path"]
+                path_normalized = path_normalized[path_normalized.find('/')+1:]
                 obj = {
                     "name" : item["name"],
-                    "path":item["path"],
+                    "path":path_normalized,
                     "type" : "file",
                     "download" : item["download_url"],
                     "size" : item["size"],
@@ -30,13 +32,13 @@ def WalkTree(data):
             jsonx.write(jsonr)
             jsonx.close()
             exit()
-order = ["Linux AMD64.json", "Linux i386.json", "W32.json", "W64.json", "mac.json"]
+order = ["Linux AMD64.json", "Linux i386.json", "W32.json", "W64.json", "mac.json", "jsonfy.py"]
 
 req = requests.get("https://api.github.com/repos/Txiag/sBotics/contents/", headers=token)
 req = req.json()
 cont = 0
 for item in req:
-    if item["name"] == "jsonfy.py":
+    if cont == 5:
         break
     if item["name"] not in order:
         req2 = requests.get(item["_links"]["self"]).json()
