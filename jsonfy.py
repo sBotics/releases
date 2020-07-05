@@ -4,7 +4,7 @@ import json
 datag = {
     "data": []
 }
-token = {"Authorization": "token defb9e804f1e1dc19948de333ac7509776f93116 "}
+token = {"Authorization": "token  "}
 def WalkTree(data):
     for item in data:
         try:
@@ -13,13 +13,19 @@ def WalkTree(data):
                 path_parsed = urllib.parse.urlencode({"data":item["path"]})[5:]
                 path_normalized = item["path"]
                 path_normalized = path_normalized[path_normalized.find('/')+1:]
+                path_normalized = path_normalized[0:len(path_normalized)-len(item["name"])]
+                if item["name"][::-1][:4][::-1] == ".zip":
+                    fformat = "zip"
+                else:
+                    fformat = "simple"
                 obj = {
                     "name" : item["name"],
                     "path":path_normalized,
                     "type" : "file",
                     "download" : item["download_url"],
                     "size" : item["size"],
-                    "last_updated_at" : requests.get("https://api.github.com/repos/Txiag/sBotics/commits?path="+path_parsed, headers=token).json()[0]["commit"]["author"]["date"]
+                    "last_updated_at" : requests.get("https://api.github.com/repos/Txiag/sBotics/commits?path="+path_parsed, headers=token).json()[0]["commit"]["author"]["date"],
+                    "format" = fformat
                 }
                 datag["data"].append(obj)
             elif item["type"] == "dir":
