@@ -6,7 +6,7 @@ datag = {
         "download_link":"http://weduc.natalnet.br/sbotics",
     "data": []
 }
-token = {"Authorization": "token 6d265874178abfc6754d76baa2f969766e328912 "}
+token = {"Authorization": "token "}
 def WalkTree(data):
     for item in data:
         try:
@@ -46,7 +46,9 @@ order = ["Linux AMD64.json", "Linux i386.json", "W32.json", "W64.json", "mac.jso
 req = requests.get("https://api.github.com/repos/Txiag/sBotics/contents/", headers=token)
 req = req.json()
 cont = 0
-for item in req:
+item = req[10];
+print(item)
+for xs in range(1):
     if cont == 5:
         break
     if item["name"] not in order:
