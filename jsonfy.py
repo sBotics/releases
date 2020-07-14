@@ -2,20 +2,23 @@ import requests
 import urllib
 import json
 datag = {
+        "version" : "1",
+        "download_link":"http://weduc.natalnet.br/sbotics",
     "data": []
 }
-token = {"Authorization": "token  "}
+token = {"Authorization": "token 6d265874178abfc6754d76baa2f969766e328912 "}
 def WalkTree(data):
     for item in data:
         try:
             if item["type"] == "file":
-                
                 path_parsed = urllib.parse.urlencode({"data":item["path"]})[5:]
                 path_normalized = item["path"]
                 path_normalized = path_normalized[path_normalized.find('/')+1:]
                 path_normalized = path_normalized[0:len(path_normalized)-len(item["name"])]
                 if item["name"][::-1][:4][::-1] == ".zip":
                     fformat = "zip"
+                    print("entrou")
+                    print(item["name"])
                 else:
                     fformat = "simple"
                 obj = {
@@ -25,7 +28,7 @@ def WalkTree(data):
                     "download" : item["download_url"],
                     "size" : item["size"],
                     "last_updated_at" : requests.get("https://api.github.com/repos/Txiag/sBotics/commits?path="+path_parsed, headers=token).json()[0]["commit"]["author"]["date"],
-                    "format" = fformat
+                    "format" : fformat
                 }
                 datag["data"].append(obj)
             elif item["type"] == "dir":
@@ -56,6 +59,9 @@ for item in req:
         jsonx.write(jsonr)
         jsonx.close()
         datag = {
-        "data": []
+        "version" : "1",
+        "download_link":"http://weduc.natalnet.br/sbotics",
+        "data": [],
+        
         }
         cont += 1
