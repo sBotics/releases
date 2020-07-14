@@ -6,7 +6,7 @@ datag = {
         "download_link":"http://weduc.natalnet.br/sbotics",
     "data": []
 }
-token = {"Authorization": "token "}
+token = {"Authorization": "token"}
 def WalkTree(data):
     for item in data:
         try:
@@ -41,17 +41,18 @@ def WalkTree(data):
             jsonx.write(jsonr)
             jsonx.close()
             exit()
-order = ["Linux AMD64.json", "Linux i386.json", "W32.json", "W64.json", "mac.json", "jsonfy.py"]
+order = ["Linux AMD64.json", "Linux i386.json", "W32.json", "W64.json", "mac.json"]
+names = ["Linux AMD64", "Linux i386", "W32", "W64", "mac"]
 
 req = requests.get("https://api.github.com/repos/Txiag/sBotics/contents/", headers=token)
 req = req.json()
 cont = 0
-item = req[10];
-print(item)
-for xs in range(1):
+
+for item in req:
     if cont == 5:
         break
-    if item["name"] not in order:
+    if item["name"] in names:
+        print("Entrou no "+ item["name"])
         req2 = requests.get(item["_links"]["self"]).json()
         print('-----Iniciando Busca do '+order[cont]+"-----")
         WalkTree(req2)
