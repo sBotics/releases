@@ -6,7 +6,7 @@ datag = {
         "download_link":"http://weduc.natalnet.br/sbotics",
     "data": []
 }
-token = {"Authorization": "cdb3ba1005a7cb45b7749614d661f2d0291dcc38"}
+token = {"Authorization": "token {token aqui}"}
 def WalkTree(data):
     for item in data:
         try:
@@ -44,9 +44,10 @@ def WalkTree(data):
 order = ["Linux AMD64.json", "Linux i386.json", "W32.json", "W64.json", "mac.json"]
 names = ["Linux AMD64", "Linux i386", "W32", "W64", "mac"]
 
-req = requests.get("https://api.github.com/rate_limit", headers=token)
+req = requests.get("https://api.github.com/repos/Txiag/sBotics/contents/", headers=token)
 req = req.json()
 cont = 0
+print(req);
 for item in req:
     if cont == 5:
         break
