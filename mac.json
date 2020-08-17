@@ -1,6 +1,6 @@
 {
     "version":"1",
-    "download_lin":"http://weduc.natalnet.br/sbotics",
+    "download_link":"http://weduc.natalnet.br/sbotics",
     "data":[
        {
           "name":"UnityPlayer.dylib",
@@ -11023,4 +11023,3 @@
           "path":"sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc/Contents/Resources/app/src/BlocklyReduc/typings/msg/",
           "type":"file",
           "download":"https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc/Contents/Resources/app/src/BlocklyReduc/typings/msg/constants.d.ts",
-    
