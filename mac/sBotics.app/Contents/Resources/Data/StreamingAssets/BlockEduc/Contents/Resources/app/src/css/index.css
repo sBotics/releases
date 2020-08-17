@@ -1,0 +1,259 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body,
+    html {
+        background-color: #4E4E4E;
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        height: 100%;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    /* Color */
+    
+    .AzulClaroBack {
+        background-color: #3490DC;
+    }
+    
+    .AzulPiscinaBack {
+        background-color: #2FA9C2;
+    }
+    
+    .VermelhoClaroBack {
+        background-color: #FC615D;
+    }
+    
+    .VerdeClaroBack {
+        background-color: #34C749;
+    }
+    
+    .AmareloClaroBack {
+        background-color: #FDBC40;
+    }
+    /* Header */
+    
+    nav {
+        width: 100%;
+        height: 60px;
+        background-color: #212121;
+        position: fixed;
+        top: 0;
+        left: 0;
+        -webkit-app-region: drag;
+    }
+    
+    .Header {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .Direita {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        justify-content: left;
+    }
+    
+    .Esquerda {
+        display: flex;
+        flex-direction: row;
+    }
+    /* Button Grande*/
+    
+    .ButtonClick {
+        cursor: pointer;
+        margin-top: 12px;
+        margin-left: 12px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ViewIcon {
+        width: 36px;
+        height: 36px;
+        border-radius: 18px;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: width 0.2s, height 0.2s;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+    
+    .ViewIcon .Icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .ViewIcon .IconeText {
+        font-size: 18px;
+        color: white;
+    }
+    
+    .BodyButton {
+        width: 34px;
+        height: 36px;
+        border-radius: 18px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        margin: 0px 0px 0px -35px;
+        transition: width 0.2s, height 0.2s;
+    }
+    
+    .BodyButton span {
+        font-size: 15px;
+        font-weight: bold;
+        color: #3490DC;
+        padding-top: 9px;
+        padding-right: 7px;
+        display: none;
+    }
+    
+    .ViewIcon:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .ViewIcon:hover+.BodyButton {
+        max-width: 110px;
+        min-width: 36px;
+        width: auto;
+        height: 36px;
+        transition: width 2s, height 2s;
+    }
+    
+    .BodyButton:hover {
+        max-width: 110px;
+        min-width: 36px;
+        width: auto;
+        height: 36px;
+        transition: width 2s, height 2s;
+    }
+    
+    .ViewIcon:hover+.BodyButton span {
+        display: block;
+        animation: moveSpan 0.5s;
+        padding-left: 40px;
+    }
+    
+    .BodyButton:hover.BodyButton span {
+        display: block;
+        animation: moveSpan 0.5s;
+        padding-left: 40px;
+    }
+    
+    @keyframes moveSpan {
+        from {
+            padding-left: 0px;
+        }
+        to {
+            padding-left: 40px;
+        }
+    }
+    
+    .distanceButton {
+        margin-left: 12px
+    }
+    
+    .distanceRightButton {
+        margin-right: 26px;
+    }
+    /* Button Grande*/
+    
+    .ButtonClickAssets {
+        cursor: pointer;
+        margin-top: 12px;
+        margin-left: 12px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .ViewIconAssets {
+        width: 18px;
+        height: 18px;
+        border-radius: 18px;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: width 0.2s, height 0.2s;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+    
+    .ViewIconAssets .Icon {
+        width: 15px;
+        height: 15px;
+        opacity: 0;
+        display: block;
+    }
+    
+    .ViewIconAssets .IconeText {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        opacity: 0;
+    }
+    
+    .ViewIconAssets:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .ViewIconAssets .IconeText:hover {
+        opacity: 1;
+    }
+    
+    .distanceButtonAssets {
+        margin-left: 5px
+    }
+    
+    .distanceRightButtonAssets {
+        margin-right: 12px;
+    }
+    /* Barra */
+    
+    .barra {
+        width: 2px;
+        height: 31px;
+        background-color: #3490DC;
+        margin-left: 12px;
+        /* margin-right: 12px; */
+        margin-top: 15px;
+        display: block;
+    }
+    /* Content */
+    
+    #content {
+        position: fixed;
+        top: 0;
+        margin-top: 60px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }

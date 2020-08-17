@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Metas Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Pagina info  -->
+    <title>BlockEduc</title>
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./src/img/favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/index.css?version=5">
+    <link rel="stylesheet" href="./src/font-awesome/css/font-awesome.min.css">
+
+    <!-- Script -->
+    <script src="./src/sweet/sweetalert2.all.min.js"></script>
+
+
+    <!-- Blockly R-Educ -->
+    <script src="./src/BlocklyReduc/blockly_uncompressed.js"></script>
+
+    <script src="./src/BlocklyReduc/generators/javascript.js"></script>
+    <!--<script src="./src/BlocklyReduc/javascript_compressed.js"></script> -->
+
+    <!-- ================ BLOCO ================ -->
+    <!-- R-educ funcoes -->
+    <script src="./src/BlocklyReduc/blocks/blockREduc.js"></script>
+    <script src="./src/BlocklyReduc/blocks/blockREducDefault.js"></script>
+
+    <!-- Logic - Condicional -->
+    <script src="./src/BlocklyReduc/blocks/logic.js"></script>
+    <script src="./src/BlocklyReduc/generators/javascript/logic.js"></script>
+
+    <script src="./src/BlocklyReduc/msg/pt-br.js"></script>
+
+    <script src="./src/BlocklyReduc/tests/playgrounds/screenshot.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script>
+        goog.require('Blockly.WorkspaceCommentSvg');
+        goog.require('Blockly.WorkspaceCommentSvg.render');
+    </script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="Header">
+            <div class="Direita">
+                <div id="Book" onclick="salvar()" class="ButtonClick">
+                    <div class="ViewIcon AzulClaroBack">
+                        <img class="Icon " src="./src/img/save.png " alt="Funções ">
+                    </div>
+                    <div class="BodyButton"><span>Salvar</span></div>
+                </div>
+            </div>
+            <div class="Esquerda">
+                <!-- <div id="Book" class="ButtonClickAssets distanceButtonAssets">
+                    <div class="ViewIconAssets VerdeClaroBack ">
+                        <i class="fa fa-minus IconeText" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div id="Book" class="ButtonClickAssets distanceButtonAssets">
+                    <div class="ViewIconAssets AmareloClaroBack ">
+                        <i class="fa fa-window-maximize IconeText" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div id="Exit" class="ButtonClickAssets distanceButtonAssets distanceRightButtonAssets">
+                    <div class="ViewIconAssets VermelhoClaroBack ">
+                        <i class="fa fa-times IconeText" aria-hidden="true"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <div id="content">
+        <div id="blocklyDiv"></div>
+    </div>
+</body>
+
+<xml id="toolbox" style="display: none">
+    <category name="Lógica" colour="210">
+        <block type="start"></block>
+        <block type="controls_if"></block>
+        <block type="enquanto_farei"></block>
+        <block type="farei_enquanto"></block>
+        <block type="para"></block>
+        <block type="repita"></block>
+        <block type="teste_constructor"></block>
+        <block type="teste_caso"></block>
+        <block type="teste_outros"></block>
+        <block type="logic_compare"></block>
+        <block type="logic_operation"></block>
+        <block type="logic_boolean"></block>
+    </category>
+    <category name="Matemática" colour="230">
+        <block type="default_num"></block>
+        <block type="aleatorio"></block>
+        <block type="arcocosseno"></block>
+        <block type="arcoseno"></block>
+        <block type="arcotangente"></block>
+        <block type="arredondar"></block>
+        <block type="cosseno"></block>
+        <block type="dividir"></block>
+        <block type="listanumero"></block>
+        <block type="mapeamento"></block>
+        <block type="modulo"></block>
+        <block type="multiplicar"></block>
+        <block type="negativo"></block>
+        <block type="pi"></block>
+        <block type="raizquadrada"></block>
+        <block type="resto"></block>
+        <block type="seno"></block>
+        <block type="somar"></block>
+        <block type="subtrair"></block>
+        <block type="tamanholistanumero"></block>
+        <block type="tamanholistatexto"></block>
+        <block type="tangente"></block>
+        <block type="textotamanho"></block>
+        <block type="truncar"></block>
+        <block type="virarnumero"></block>
+    </category>
+    <category name="Texto" colour="160">
+        <block type="default_text"></block>
+        <block type="escrever"></block>
+        <block type="escrevernumero"></block>
+        <block type="limparregistro"></block>
+        <block type="pararregistro"></block>
+        <block type="registrar"></block>
+        <block type="registrarnumero"></block>
+        <block type="registrartexto"></block>
+        <block type="virartexto"></block>
+        <block type="concatenar"></block>
+        <block type="concatenar3"></block>
+        <block type="concatenar4"></block>
+        <block type="concatenar5"></block>
+        <block type="imprimirlistanumero"></block>
+        <block type="imprimirlistatexto"></block>
+        <block type="listatexto"></block>
+        <block type="substituir"></block>
+        <block type="textoposicao"></block>
+    </category>
+    <sep gap="8"></sep>
+    <category name="Leitura" colour="290">
+        <block type="anguloatuador"></block>
+        <block type="angulogiroatuador"></block>
+        <block type="cor"></block>
+        <block type="corazul"></block>
+        <block type="corverde"></block>
+        <block type="corvermelha"></block>
+        <block type="direcao"></block>
+        <block type="inclinacao"></block>
+        <block type="luz"></block>
+        <block type="temalgo"></block>
+        <block type="tempo"></block>
+        <block type="temporizador"></block>
+        <block type="toque"></block>
+        <block type="ultra"></block>
+    </category>
+    <category name="Movimentação" colour="65">
+        <block type="abrir"></block>
+        <block type="baixar"></block>
+        <block type="direita"></block>
+        <block type="esquerda"></block>
+        <block type="fechar"></block>
+        <block type="frente"></block>
+        <block type="frenterotacao"></block>
+        <block type="girarbaixo"></block>
+        <block type="girarcima"></block>
+        <block type="levantar"></block>
+        <block type="motordireita"></block>
+        <block type="motoresquerda"></block>
+        <block type="mover"></block>
+        <block type="parar"></block>
+        <block type="rotacionar"></block>
+        <block type="tras"></block>
+        <block type="trasrotacao"></block>
+        <block type="velocidadeatuador"></block>
+    </category>
+    <category name="Musica" colour="15">
+        <block type="ajustaronda"></block>
+        <block type="tocar"></block>
+        <block type="tocarsom"></block>
+    </category>
+    <category name="Outros" colour="330">
+        <block type="acenderled"></block>
+        <block type="acenderledrgb"></block>
+        <block type="adicionarlistanumero"></block>
+        <block type="adicionarlistatexto"></block>
+        <block type="ajustarcor"></block>
+        <block type="apagarled"></block>
+        <block type="comentar"></block>
+        <block type="esperar"></block>
+        <block type="interromper"></block>
+        <block type="limparconsole"></block>
+        <block type="limparlinha"></block>
+        <block type="removerlistanumero"></block>
+        <block type="removerlistatexto"></block>
+        <block type="zerartemporizador"></block>
+        <block type="ajustarprecisao"></block>
+    </category>
+    <!-- <sep gap="8"></sep>
+    <category name="Variável" custom="VARIABLE" colour="195"></category>
+    <category name="Tarefas" custom="PROCEDURE" colour="195"></category> -->
+
+</xml>
+
+<script>
+    // TokenUser = localStorage.getItem("tokenName");
+    // CodeName = localStorage.getItem("CodeName");
+    // idPrograma = localStorage.getItem("idcode");
+    // codeImportXMl = localStorage.getItem("codeImportXMl");
+
+    // console.log("Token: " + TokenUser);
+    // console.log("CodeName: " + CodeName);
+    // console.log("IdPrograma: " + idPrograma);
+    // console.log("Xml: " + codeImportXMl)
+    var blocklyArea = document.getElementById('content');
+    var blocklyDiv = document.getElementById('blocklyDiv');
+    var toolbox = document.getElementById("toolbox");
+
+    var options = {
+        toolbox: toolbox,
+        collapse: true,
+        comments: true,
+        disable: false,
+        maxBlocks: Infinity,
+        trashcan: true,
+        horizontalLayout: false,
+        toolboxPosition: 'fixed',
+        css: true,
+        media: 'https://blockly-demo.appspot.com/static/media/',
+        rtl: false,
+        scrollbars: true,
+        sounds: true,
+        oneBasedIndex: true,
+        grid: {
+            spacing: 20,
+            length: 1,
+            colour: '#888',
+            snap: false
+        },
+        zoom: {
+            controls: true,
+            wheel: true,
+            startScale: 1,
+            maxScale: 3,
+            minScale: 0.3,
+            scaleSpeed: 1.2
+        },
+        theme: {
+            'componentStyles': {
+                'workspaceBackgroundColour': '#1e1e1e',
+                'toolboxBackgroundColour': '#333',
+                'toolboxForegroundColour': '#fff',
+                'flyoutBackgroundColour': '#252526',
+                'flyoutForegroundColour': '#ccc',
+                'flyoutOpacity': 1,
+                'scrollbarColour': '#797979',
+                'insertionMarkerColour': '#fff',
+                'insertionMarkerOpacity': 0.3,
+                'scrollbarOpacity': 0.4,
+                'cursorColour': '#d0d0d0'
+            }
+        }
+    };
+
+    /* Inject your workspace */
+    var workspace = Blockly.inject('blocklyDiv', options);
+
+    workspace.configureContextMenu = configureContextMenu.bind(workspace);
+
+    xml_textImport = localStorage.getItem("codeImportXMl");
+    try {
+        var xml = Blockly.Xml.textToDom(xml_textImport);
+        Blockly.Xml.domToWorkspace(xml, workspace);
+    } catch (nunca) {
+        var basic = "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"start\" id=\"kgXlO5RXz*?_ukGcJ^.w\" x=\"20\" y=\"58\"></block></xml>";
+        var xml = Blockly.Xml.textToDom(basic);
+        Blockly.Xml.domToWorkspace(xml, workspace);
+    }
+
+
+
+    function configureContextMenu(menuOptions, e) {
+        var workspace = this;
+        var screenshotOption = {
+            text: 'Baixar código',
+            enabled: workspace.getTopBlocks().length,
+            callback: function() {
+                Blockly.downloadScreenshot(workspace);
+            }
+        };
+        menuOptions.push(screenshotOption);
+        // Adds a default-sized workspace comment to the workspace.
+        menuOptions.push(Blockly.ContextMenu.workspaceCommentOption(workspace, e));
+    }
+    var onresize = function(e) {
+        // Compute the absolute coordinates and dimensions of blocklyArea.
+        var element = blocklyArea;
+        var x = 0;
+        var y = 0;
+        do {
+            x += element.offsetLeft;
+            y += element.offsetTop;
+            element = element.offsetParent;
+        } while (element);
+        // Position blocklyDiv over blocklyArea.
+        blocklyDiv.style.left = x + 'px';
+        blocklyDiv.style.top = y + 'px';
+        blocklyDiv.style.width = blocklyArea.offsetWidth + 'px';
+        blocklyDiv.style.height = blocklyArea.offsetHeight + 'px';
+        Blockly.svgResize(workspace);
+    };
+    window.addEventListener('resize', onresize, false);
+    onresize();
+    Blockly.svgResize(workspace);
+
+
+    var code = "";
+    var xml_text = "";
+    var codeText = "";
+
+    function myUpdateFunction(event) {
+
+        Blockly.JavaScript.addReservedWords('code');
+        code = Blockly.JavaScript.workspaceToCode(workspace);
+        var xml = Blockly.Xml.workspaceToDom(workspace);
+        xml_text = Blockly.Xml.domToText(xml);
+    }
+
+    workspace.addChangeListener(myUpdateFunction);
+
+    function salvar() {
+        TokenUser = localStorage.getItem("tokenName");
+        CodeName = localStorage.getItem("CodeName");
+        idPrograma = localStorage.getItem("idcode");
+
+        var xmlhttp = new XMLHttpRequest(); // new HttpRequest instance 
+        var theUrl = "http://weduc.natalnet.br/api/programs/" + idPrograma;
+        xmlhttp.open("PUT", theUrl);
+        xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8;");
+        xmlhttp.setRequestHeader("Authorization", "Bearer " + TokenUser);
+
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState === 4) {
+                console.log('Status:', this.status);
+                console.log('Headers:', this.getAllResponseHeaders());
+                console.log('Body:', this.responseText);
+                if (this.status == 204) {
+                    alert("Programa salvo com sucesso!")
+                } else {
+                    alert("Erro ao salvar programa!")
+                }
+            }
+        };
+
+        xmlhttp.send(JSON.stringify({
+            "name": CodeName,
+            "reduc_code": code,
+            "blockly_code": xml_text
+        }));
+
+    }
+</script>
+
+
+</html>
