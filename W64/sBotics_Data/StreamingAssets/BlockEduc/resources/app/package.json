@@ -1,0 +1,20 @@
+{
+    "name": "blockeduc",
+    "version": "1.0.0",
+    "description": "Editor de programação em blocos para o simulador sBotics",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Julio Cesar Vera Neto",
+    "devDependencies": {
+        "electron": "^9.2.0",
+        "electron-packager": "^15.0.0"
+    },
+    "dependencies": {
+        "electron-window-manager": "^1.0.6",
+        "jQuery": "^1.7.4",
+        "jquery": "^3.5.1",
+        "temp-dir": "^2.0.0"
+    }
+}
