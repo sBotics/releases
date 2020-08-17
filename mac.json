@@ -1162,6 +1162,24 @@
           "size":3382116,
           "last_updated_at":"2020-07-19T21:42:54Z",
           "format":"simple"
+       },
+       {
+        "name":"BlockEduc-darwin-x64.zip",
+        "path":"sBotics.app/Contents/Resources/Data/StreamingAssets/",
+        "type":"file",
+        "download":"https://www.dropbox.com/sh/vuiucillasyutya/AAAzKB5B5vD5qkdtPetadPDNa?dl=1",
+        "size":678881,
+        "last_updated_at":"2020-07-19T21:42:54Z",
+        "format":"zip"
+     },
+       {
+          "name":"BlockEduc",
+          "path":"sBotics.app/Contents/Resources/StreamingAssets/BlockEduc.app/Contents/MacOS/",
+          "type":"file",
+          "download":"https://www.dropbox.com/s/r6v20bnuipu74a5/BlockEduc?dl=1",
+          "size":678881,
+          "last_updated_at":"2020-08-20T21:42:54Z",
+          "format":"simple"
        }
     ]
  }
