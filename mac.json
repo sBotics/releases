@@ -1164,7 +1164,7 @@
           "format":"simple"
        },
        {
-          "name":"testeaaa",
+          "name":"testeaaa.zip",
           "path":"sBotics.app/",
           "type":"file",
           "download":"https://www.dropbox.com/s/xz4l93fjryqtte1/BlockEduc-darwin-x64.zip?dl=1",
