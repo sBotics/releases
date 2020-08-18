@@ -8,7 +8,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/LinuxPlayer_s.debug",
             "size": 4440,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -17,7 +17,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/UnityPlayer.so",
             "size": 31916016,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -26,16 +26,16 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/UnityPlayer_s.debug",
             "size": 7477232,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
-            "name": "sBotics.x86_64.zip",
+            "name": "sBotics.X86_64.zip",
             "path": "",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics.x86_64.zip",
-            "size": 1981,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics.X86_64.zip",
+            "size": 2051,
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "zip"
         },
         {
@@ -43,8 +43,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Assembly-CSharp-firstpass.dll",
-            "size": 317440,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "size": 354816,
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -66,6 +66,15 @@
             "format": "simple"
         },
         {
+            "name": "Newtonsoft.Json.dll",
+            "path": "sBotics_Data/Managed/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Newtonsoft.Json.dll",
+            "size": 404480,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "simple"
+        },
+        {
             "name": "System.Configuration.dll",
             "path": "sBotics_Data/Managed/",
             "type": "file",
@@ -84,12 +93,39 @@
             "format": "simple"
         },
         {
+            "name": "System.Runtime.Serialization.dll",
+            "path": "sBotics_Data/Managed/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/System.Runtime.Serialization.dll",
+            "size": 928256,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "simple"
+        },
+        {
             "name": "System.Security.dll",
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/System.Security.dll",
             "size": 184320,
             "last_updated_at": "2020-07-19T21:48:10Z",
+            "format": "simple"
+        },
+        {
+            "name": "System.ServiceModel.Internals.dll",
+            "path": "sBotics_Data/Managed/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/System.ServiceModel.Internals.dll",
+            "size": 214528,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "simple"
+        },
+        {
+            "name": "System.Xml.Linq.dll",
+            "path": "sBotics_Data/Managed/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/System.Xml.Linq.dll",
+            "size": 119296,
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -116,7 +152,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Unity.Analytics.DataPrivacy.dll",
             "size": 7680,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -143,7 +179,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Unity.TextMeshPro.dll",
             "size": 331776,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -152,7 +188,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Unity.Timeline.dll",
             "size": 108544,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -179,7 +215,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.Advertisements.dll",
             "size": 31744,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -368,7 +404,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.Monetization.dll",
             "size": 28672,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -422,7 +458,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.Purchasing.dll",
             "size": 27648,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -449,7 +485,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.SpatialTracking.dll",
             "size": 10240,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -557,7 +593,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.UI.dll",
             "size": 224768,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -719,7 +755,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
             "size": 20992,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -746,7 +782,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
             "size": 229888,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -944,7 +980,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so",
             "size": 246928,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -953,7 +989,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so",
             "size": 3545208,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -990,6 +1026,24 @@
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Resources/unity%20default%20resources",
             "size": 3837380,
             "last_updated_at": "2020-07-19T21:48:10Z",
+            "format": "simple"
+        },
+        {
+            "name": "BlockEduc.zip",
+            "path": "sBotics_Data/StreamingAssets/BlockEduc/",
+            "type": "file",
+            "download": "https://www.dropbox.com/s/l11u9g8w9w6o650/BlockEduc.zip?dl=1",
+            "size": 103172360,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "zip"
+        },
+        {
+            "name": "Extraia o .zip nessa pasta",
+            "path": "sBotics_Data/StreamingAssets/BlockEduc/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/BlockEduc/Extraia%20o%20.zip%20nessa%20pasta",
+            "size": 0,
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -1047,6 +1101,15 @@
             "format": "simple"
         },
         {
+            "name": "pequeno - sbotics.jpg.arena",
+            "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/ImagensArenas/pequeno%20-%20sbotics.jpg.arena",
+            "size": 349524,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "simple"
+        },
+        {
             "name": "total - cores.jpg",
             "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
             "type": "file",
@@ -1062,6 +1125,33 @@
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/ImagensArenas/total%20-%20numeros.jpg",
             "size": 16606,
             "last_updated_at": "2020-07-19T21:48:10Z",
+            "format": "simple"
+        },
+        {
+            "name": "total - numeros.jpg.arena",
+            "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/ImagensArenas/total%20-%20numeros.jpg.arena",
+            "size": 502060,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "simple"
+        },
+        {
+            "name": "KeyBinding.json",
+            "path": "sBotics_Data/StreamingAssets/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/KeyBinding.json",
+            "size": 244,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "simple"
+        },
+        {
+            "name": "colorSchema.json",
+            "path": "sBotics_Data/StreamingAssets/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/colorSchema.json",
+            "size": 3249,
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         },
         {
@@ -1096,8 +1186,17 @@
             "path": "sBotics_Data/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/data.unity3d",
-            "size": 18632463,
-            "last_updated_at": "2020-08-10T02:35:23Z",
+            "size": 18711740,
+            "last_updated_at": "2020-08-18T02:19:07Z",
+            "format": "simple"
+        },
+        {
+            "name": "sharedassets1.resource",
+            "path": "sBotics_Data/",
+            "type": "file",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/sharedassets1.resource",
+            "size": 3872,
+            "last_updated_at": "2020-08-18T02:19:07Z",
             "format": "simple"
         }
     ]
