@@ -1062,7 +1062,7 @@
             "download": "https://www.dropbox.com/s/6tf74tp7ozta8de/BlockEduc.zip?dl=1",
             "size": 100977291,
             "last_updated_at": "2020-08-18T02:19:07Z",
-            "format": "zip"
+            "format": "simple"
         },
         {
             "name": "Extraia o .zip nessa pasta",
