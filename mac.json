@@ -286,8 +286,8 @@
             "path": "sBotics.app/Contents/Resources/Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll",
-            "size": 355840,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "size": 386560,
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -395,7 +395,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.Analytics.DataPrivacy.dll",
             "size": 7680,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -422,7 +422,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll",
             "size": 331776,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -431,7 +431,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.Timeline.dll",
             "size": 108544,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -467,7 +467,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.Advertisements.dll",
             "size": 31744,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -656,7 +656,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.Monetization.dll",
             "size": 28672,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -737,7 +737,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.SpatialTracking.dll",
             "size": 10240,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -845,7 +845,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
             "size": 224768,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -1007,7 +1007,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
             "size": 20992,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -1034,7 +1034,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
             "size": 229888,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -1056,21 +1056,21 @@
             "format": "simple"
         },
         {
-            "name": "BlockEduc.zip",
-            "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc/",
+            "name": "7za.exe",
+            "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc110/",
             "type": "file",
-            "download": "https://www.dropbox.com/s/6tf74tp7ozta8de/BlockEduc.zip?dl=1",
-            "size": 100977291,
-            "last_updated_at": "2020-08-18T02:19:07Z",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc110/7za.exe",
+            "size": 587776,
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
-            "name": "Extraia o .zip nessa pasta",
-            "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc/",
+            "name": "BlockEduc.zip",
+            "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc110/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc/Extraia%20o%20.zip%20nessa%20pasta",
-            "size": 0,
-            "last_updated_at": "2020-08-18T02:19:07Z",
+            "download": "https://www.dropbox.com/s/ecbvyoialzjcne8/BlockEduc.zip?dl=1",
+            "size": 71918579,
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
@@ -1164,22 +1164,22 @@
             "format": "simple"
         },
         {
-            "name": "KeyBinding.json",
+            "name": "KeyBinding.json.zip",
             "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/KeyBinding.json",
-            "size": 244,
-            "last_updated_at": "2020-08-18T02:19:07Z",
-            "format": "simple"
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/KeyBinding.json.zip",
+            "size": 344,
+            "last_updated_at": "2020-08-23T20:17:40Z",
+            "format": "zip"
         },
         {
-            "name": "colorSchema.json",
+            "name": "colorSchema.json.zip",
             "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/colorSchema.json",
-            "size": 3249,
-            "last_updated_at": "2020-08-18T02:19:07Z",
-            "format": "simple"
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/colorSchema.json.zip",
+            "size": 951,
+            "last_updated_at": "2020-08-23T20:17:40Z",
+            "format": "zip"
         },
         {
             "name": "textura.png.zip",
@@ -1213,8 +1213,8 @@
             "path": "sBotics.app/Contents/Resources/Data/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/data.unity3d",
-            "size": 17679209,
-            "last_updated_at": "2020-08-18T19:19:45Z",
+            "size": 18296424,
+            "last_updated_at": "2020-08-23T20:17:40Z",
             "format": "simple"
         },
         {
