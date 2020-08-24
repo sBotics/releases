@@ -1150,8 +1150,8 @@
             "path": "sBotics_Data/StreamingAssets/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/colorSchema.json.zip",
-            "size": 951,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "size": 882,
+            "last_updated_at": "2020-08-23T21:13:22Z",
             "format": "zip"
         },
         {

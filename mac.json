@@ -1177,8 +1177,8 @@
             "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/colorSchema.json.zip",
-            "size": 951,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "size": 882,
+            "last_updated_at": "2020-08-23T21:13:19Z",
             "format": "zip"
         },
         {
