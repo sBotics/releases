@@ -1041,9 +1041,9 @@
             "name": "BlockEduc.zip",
             "path": "sBotics_Data/StreamingAssets/BlockEduc110/",
             "type": "file",
-            "download": "https://www.dropbox.com/s/s4gyi0mxmoxlffk/BlockEduc.zip?dl=1",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/StreamingAssets/BlockEduc110/BlockEduc.zip",
             "size": 74700351,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-25T00:35:11Z",
             "format": "simple"
         },
         {
