@@ -223,8 +223,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Assembly-CSharp-firstpass.dll",
-            "size": 387072,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "size": 394752,
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -494,7 +494,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Unity.Analytics.DataPrivacy.dll",
             "size": 7680,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -521,7 +521,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Unity.TextMeshPro.dll",
             "size": 331776,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -530,7 +530,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Unity.Timeline.dll",
             "size": 108544,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -566,7 +566,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.Advertisements.dll",
             "size": 31744,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -755,7 +755,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.Monetization.dll",
             "size": 28672,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -836,7 +836,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.SpatialTracking.dll",
             "size": 10240,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -944,7 +944,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.UI.dll",
             "size": 224768,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -1106,7 +1106,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
             "size": 20992,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -1133,7 +1133,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
             "size": 229888,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -1174,110 +1174,65 @@
         },
         {
             "name": "7za.exe",
-            "path": "sBotics_Data/StreamingAssets/BlockEduc110/",
+            "path": "sBotics_Data/StreamingAssets/BlockEduc120/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/BlockEduc110/7za.exe",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/BlockEduc120/7za.exe",
             "size": 587776,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
             "name": "BlockEduc.7z",
-            "path": "sBotics_Data/StreamingAssets/BlockEduc110/",
+            "path": "sBotics_Data/StreamingAssets/BlockEduc120/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/BlockEduc110/BlockEduc.7z",
-            "size": 47124820,
-            "last_updated_at": "2020-08-25T00:35:11Z",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/BlockEduc120/BlockEduc.7z",
+            "size": 47123676,
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
-            "name": "grande - brasil.jpg",
+            "name": "grande.jpg",
             "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/grande%20-%20brasil.jpg",
-            "size": 34108,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/grande.jpg",
+            "size": 205316,
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
-            "name": "grande - circulo.jpg",
+            "name": "media.jpg",
             "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/grande%20-%20circulo.jpg",
-            "size": 18516,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/media.jpg",
+            "size": 31211,
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
-            "name": "grande - quadrado.jpg",
+            "name": "pequena.jpg",
             "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/grande%20-%20quadrado.jpg",
-            "size": 15220,
-            "last_updated_at": "2020-07-19T21:48:10Z",
-            "format": "simple"
-        },
-        {
-            "name": "medio - frutas e verduras.jpg",
-            "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
-            "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/medio%20-%20frutas%20e%20verduras.jpg",
-            "size": 19434,
-            "last_updated_at": "2020-07-19T21:48:10Z",
-            "format": "simple"
-        },
-        {
-            "name": "pequeno - peca.jpg",
-            "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
-            "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/pequeno%20-%20peca.jpg",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/pequena.jpg",
             "size": 14257,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
-            "name": "pequeno - sbotics.jpg",
+            "name": "sBotics pequena.jpg",
             "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/pequeno%20-%20sbotics.jpg",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/sBotics%20pequena.jpg",
             "size": 21264,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
-            "name": "pequeno - sbotics.jpg.arena",
+            "name": "total.jpg",
             "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/pequeno%20-%20sbotics.jpg.arena",
-            "size": 349524,
-            "last_updated_at": "2020-08-18T02:19:07Z",
-            "format": "simple"
-        },
-        {
-            "name": "total - cores.jpg",
-            "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
-            "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/total%20-%20cores.jpg",
-            "size": 16031,
-            "last_updated_at": "2020-07-19T21:48:10Z",
-            "format": "simple"
-        },
-        {
-            "name": "total - numeros.jpg",
-            "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
-            "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/total%20-%20numeros.jpg",
-            "size": 16606,
-            "last_updated_at": "2020-07-19T21:48:10Z",
-            "format": "simple"
-        },
-        {
-            "name": "total - numeros.jpg.arena",
-            "path": "sBotics_Data/StreamingAssets/ImagensArenas/",
-            "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/total%20-%20numeros.jpg.arena",
-            "size": 502060,
-            "last_updated_at": "2020-08-18T02:19:07Z",
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/ImagensArenas/total.jpg",
+            "size": 50016,
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
@@ -1330,8 +1285,8 @@
             "path": "sBotics_Data/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/data.unity3d",
-            "size": 17424377,
-            "last_updated_at": "2020-08-23T20:17:40Z",
+            "size": 16164173,
+            "last_updated_at": "2020-08-30T21:09:10Z",
             "format": "simple"
         },
         {
