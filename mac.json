@@ -1062,7 +1062,7 @@
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/BlockEduc120/BlockEduc.zip",
             "size": 71916644,
             "last_updated_at": "2020-08-30T21:16:10Z",
-            "format": "zip"
+            "format": "simple"
         },
         {
             "name": "grande.jpg",
