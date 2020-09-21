@@ -1185,8 +1185,8 @@
             "name": "BlockEduc.7z",
             "path": "sBotics_Data/StreamingAssets/BlockEduc130/",
             "type": "file",
-            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W64/sBotics_Data/StreamingAssets/BlockEduc130/BlockEduc.7z",
-            "size": 49223167,
+            "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/StreamingAssets/BlockEduc130/BlockEduc.7z",
+            "size": 47126746,
             "last_updated_at": "2020-09-19T01:42:00Z",
             "format": "simple"
         },
