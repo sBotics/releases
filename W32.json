@@ -8,7 +8,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
             "size": 612352,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -16,8 +16,8 @@
             "path": "MonoBleedingEdge/EmbedRuntime/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
-            "size": 3910144,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 3915776,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -188,7 +188,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/UnityCrashHandler32.exe",
             "size": 923136,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -196,8 +196,8 @@
             "path": "",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/UnityPlayer.dll",
-            "size": 20025344,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 20078080,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -206,7 +206,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics.exe",
             "size": 640000,
-            "last_updated_at": "2020-09-26T02:24:13Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -223,8 +223,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Assembly-CSharp-firstpass.dll",
-            "size": 464896,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "size": 469504,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -485,7 +485,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/System.dll",
             "size": 2715136,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -494,7 +494,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Unity.Analytics.DataPrivacy.dll",
             "size": 7680,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -521,7 +521,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Unity.TextMeshPro.dll",
             "size": 331776,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -530,7 +530,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/Unity.Timeline.dll",
             "size": 108544,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -566,7 +566,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.Advertisements.dll",
             "size": 31744,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -583,8 +583,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.AnimationModule.dll",
-            "size": 145408,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 145920,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -637,8 +637,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.CoreModule.dll",
-            "size": 1004544,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 1005568,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -674,7 +674,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.GameCenterModule.dll",
             "size": 27136,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -709,8 +709,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.ImageConversionModule.dll",
-            "size": 12288,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 12800,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -755,7 +755,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.Monetization.dll",
             "size": 28672,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -764,7 +764,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.ParticleSystemModule.dll",
             "size": 134656,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -808,8 +808,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.Purchasing.dll",
-            "size": 27648,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 26624,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -836,7 +836,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.SpatialTracking.dll",
             "size": 10240,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -917,7 +917,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.TextCoreModule.dll",
             "size": 183808,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -935,7 +935,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.TilemapModule.dll",
             "size": 25088,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -943,8 +943,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.UI.dll",
-            "size": 224768,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "size": 225792,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -952,8 +952,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.UIElementsModule.dll",
-            "size": 724480,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 726016,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -961,8 +961,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.UIModule.dll",
-            "size": 22528,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 23040,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1069,8 +1069,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.VRModule.dll",
-            "size": 34304,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 34816,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1106,7 +1106,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
             "size": 20992,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1115,7 +1115,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.XRModule.dll",
             "size": 53760,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1124,7 +1124,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/UnityEngine.dll",
             "size": 84992,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1133,7 +1133,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
             "size": 229888,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1151,7 +1151,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Managed/mscorlib.dll",
             "size": 4072448,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1168,8 +1168,8 @@
             "path": "sBotics_Data/Resources/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/Resources/unity%20default%20resources",
-            "size": 3837380,
-            "last_updated_at": "2020-07-19T21:48:10Z",
+            "size": 3837020,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
@@ -1285,8 +1285,8 @@
             "path": "sBotics_Data/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/W32/sBotics_Data/data.unity3d",
-            "size": 16830202,
-            "last_updated_at": "2020-10-21T03:34:18Z",
+            "size": 16686994,
+            "last_updated_at": "2020-10-27T03:29:17Z",
             "format": "simple"
         },
         {
