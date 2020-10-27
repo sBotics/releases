@@ -35,7 +35,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics.x86_64.zip",
             "size": 1950,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "zip"
         },
         {
@@ -43,8 +43,8 @@
             "path": "sBotics_Data/Managed/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Assembly-CSharp-firstpass.dll",
-            "size": 468992,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "size": 469504,
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -152,7 +152,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Unity.Analytics.DataPrivacy.dll",
             "size": 7680,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -179,7 +179,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Unity.TextMeshPro.dll",
             "size": 331776,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -188,7 +188,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/Unity.Timeline.dll",
             "size": 108544,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -215,7 +215,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.Advertisements.dll",
             "size": 31744,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -404,7 +404,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.Monetization.dll",
             "size": 28672,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -458,7 +458,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.Purchasing.dll",
             "size": 26624,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -485,7 +485,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.SpatialTracking.dll",
             "size": 10240,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -593,7 +593,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.UI.dll",
             "size": 225792,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -755,7 +755,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
             "size": 20992,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -782,7 +782,7 @@
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
             "size": 229888,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
@@ -1141,8 +1141,8 @@
             "path": "sBotics_Data/",
             "type": "file",
             "download": "https://raw.githubusercontent.com/Txiag/sBotics/master/Linux%20AMD64/sBotics_Data/data.unity3d",
-            "size": 17803229,
-            "last_updated_at": "2020-10-27T13:26:32Z",
+            "size": 17804413,
+            "last_updated_at": "2020-10-27T22:44:51Z",
             "format": "simple"
         },
         {
