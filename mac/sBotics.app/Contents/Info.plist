@@ -7,11 +7,11 @@
     <key>CFBundleExecutable</key>
     <string>sBotics</string>
     <key>CFBundleGetInfoString</key>
-    <string>Unity Player version 2019.4.13f1 (518737b1de84). (c) 2020 Unity Technologies ApS. All rights reserved.</string>
+    <string>Unity Player version 2019.4.22f1 (9fdda2fe27ad). (c) 2021 Unity Technologies ApS. All rights reserved.</string>
     <key>CFBundleIconFile</key>
     <string>PlayerIcon.icns</string>
     <key>CFBundleIdentifier</key>
-    <string>com.LAICANATALNET.sBotics</string>
+    <string>com.NatalnetLabs.sBotics</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -19,7 +19,7 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>preOBR</string>
+    <string></string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
       <string>MacOSX</string>
@@ -40,6 +40,6 @@
     <key>NSPrincipalClass</key>
     <string>PlayerApplication</string>
     <key>UnityBuildNumber</key>
-    <string>518737b1de84</string>
+    <string>9fdda2fe27ad</string>
   </dict>
 </plist>
