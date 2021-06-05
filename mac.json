@@ -282,12 +282,30 @@
       "format": "simple"
     },
     {
-      "name": "Assembly-CSharp-firstpass.dll",
+      "name": "DiscordSDK.dll",
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll",
-      "size": 492032,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/DiscordSDK.dll",
+      "size": 90624,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Microsoft.CodeAnalysis.CSharp.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Microsoft.CodeAnalysis.CSharp.dll",
+      "size": 4887400,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Microsoft.CodeAnalysis.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Microsoft.CodeAnalysis.dll",
+      "size": 2712424,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -309,12 +327,66 @@
       "format": "simple"
     },
     {
-      "name": "Newtonsoft.Json.dll",
+      "name": "RoslynCSharp.Compiler.dll",
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Newtonsoft.Json.dll",
-      "size": 404480,
-      "last_updated_at": "2020-08-18T02:19:07Z",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/RoslynCSharp.Compiler.dll",
+      "size": 25600,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "RoslynCSharp.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/RoslynCSharp.dll",
+      "size": 67072,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.AppContext.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.AppContext.dll",
+      "size": 20168,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Collections.Concurrent.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Collections.Concurrent.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Collections.Immutable.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Collections.Immutable.dll",
+      "size": 358536,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Collections.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Collections.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.ComponentModel.Composition.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll",
+      "size": 256512,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -327,6 +399,15 @@
       "format": "simple"
     },
     {
+      "name": "System.Console.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Console.dll",
+      "size": 34496,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
       "name": "System.Core.dll",
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
@@ -336,12 +417,237 @@
       "format": "simple"
     },
     {
+      "name": "System.Diagnostics.Debug.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Diagnostics.Debug.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Diagnostics.FileVersionInfo.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Diagnostics.FileVersionInfo.dll",
+      "size": 23464,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Diagnostics.StackTrace.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Diagnostics.StackTrace.dll",
+      "size": 23288,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Diagnostics.Tools.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Diagnostics.Tools.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Globalization.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Globalization.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.Compression.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.IO.Compression.dll",
+      "size": 98816,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.FileSystem.Primitives.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.IO.FileSystem.Primitives.dll",
+      "size": 22784,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.FileSystem.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.IO.FileSystem.dll",
+      "size": 22744,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.IO.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Linq.Expressions.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Linq.Expressions.dll",
+      "size": 6656,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Linq.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Linq.dll",
+      "size": 4096,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Numerics.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Numerics.dll",
+      "size": 114176,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.Extensions.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Reflection.Extensions.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.Metadata.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Reflection.Metadata.dll",
+      "size": 584848,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.Primitives.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Reflection.Primitives.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Reflection.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Resources.ResourceManager.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Resources.ResourceManager.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Runtime.Extensions.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Runtime.Extensions.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Runtime.InteropServices.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Runtime.InteropServices.dll",
+      "size": 7680,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Runtime.Numerics.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Runtime.Numerics.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
       "name": "System.Runtime.Serialization.dll",
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll",
       "size": 928256,
       "last_updated_at": "2020-08-18T02:19:07Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Runtime.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Runtime.dll",
+      "size": 12800,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.Algorithms.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Security.Cryptography.Algorithms.dll",
+      "size": 39872,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.Encoding.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Security.Cryptography.Encoding.dll",
+      "size": 23480,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.Primitives.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Security.Cryptography.Primitives.dll",
+      "size": 22816,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.X509Certificates.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Security.Cryptography.X509Certificates.dll",
+      "size": 38872,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -363,12 +669,138 @@
       "format": "simple"
     },
     {
+      "name": "System.Text.Encoding.CodePages.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Text.Encoding.CodePages.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Text.Encoding.Extensions.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Text.Encoding.Extensions.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Text.Encoding.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Text.Encoding.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Tasks.Extensions.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Threading.Tasks.Extensions.dll",
+      "size": 25864,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Tasks.Parallel.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Threading.Tasks.Parallel.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Tasks.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Threading.Tasks.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Thread.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Threading.Thread.dll",
+      "size": 22240,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Threading.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.ValueTuple.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.ValueTuple.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
       "name": "System.Xml.Linq.dll",
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll",
       "size": 119296,
       "last_updated_at": "2020-08-18T02:19:07Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.ReaderWriter.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Xml.ReaderWriter.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XDocument.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Xml.XDocument.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XPath.XDocument.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Xml.XPath.XDocument.dll",
+      "size": 25320,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XPath.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Xml.XPath.dll",
+      "size": 22720,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XmlDocument.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/System.Xml.XmlDocument.dll",
+      "size": 23256,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -390,12 +822,48 @@
       "format": "simple"
     },
     {
+      "name": "Trivial.CodeSecurity.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Trivial.CodeSecurity.dll",
+      "size": 43008,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Trivial.Mono.Cecil.Mdb.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Trivial.Mono.Cecil.Mdb.dll",
+      "size": 43520,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Trivial.Mono.Cecil.Pdb.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Trivial.Mono.Cecil.Pdb.dll",
+      "size": 86528,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Trivial.Mono.Cecil.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Trivial.Mono.Cecil.dll",
+      "size": 345600,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
       "name": "Unity.Analytics.DataPrivacy.dll",
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.Analytics.DataPrivacy.dll",
       "size": 7680,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -417,12 +885,48 @@
       "format": "simple"
     },
     {
+      "name": "Unity.EventManager.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.EventManager.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.IOBrowser.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.IOBrowser.dll",
+      "size": 15360,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.JSONParser.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.JSONParser.dll",
+      "size": 29184,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.NewtorkingAPI.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.NewtorkingAPI.dll",
+      "size": 29184,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
       "name": "Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "size": 4096,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -431,7 +935,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
       "size": 175616,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -440,7 +944,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -449,7 +953,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -458,7 +962,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
       "size": 215040,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -467,7 +971,16 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
       "size": 3584,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.TextEditor.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.TextEditor.dll",
+      "size": 31744,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -476,7 +989,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll",
       "size": 368128,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -485,7 +998,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/Unity.Timeline.dll",
       "size": 109056,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -494,7 +1007,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll",
       "size": 44544,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -503,7 +1016,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll",
       "size": 12800,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -512,7 +1025,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll",
       "size": 12288,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -521,7 +1034,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.Advertisements.dll",
       "size": 31744,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -530,7 +1043,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll",
       "size": 57344,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -539,7 +1052,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll",
       "size": 145920,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -548,7 +1061,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll",
       "size": 21504,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -557,7 +1070,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll",
       "size": 57344,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -566,7 +1079,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll",
       "size": 15872,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -575,7 +1088,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll",
       "size": 10240,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -584,7 +1097,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll",
       "size": 9216,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -593,7 +1106,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll",
       "size": 1006080,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -602,7 +1115,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll",
       "size": 9728,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -611,7 +1124,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll",
       "size": 17920,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -620,7 +1133,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll",
       "size": 13312,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -629,7 +1142,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll",
       "size": 36352,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -638,7 +1151,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll",
       "size": 13824,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -647,7 +1160,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll",
       "size": 8704,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -656,7 +1169,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll",
       "size": 156160,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -665,7 +1178,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll",
       "size": 12800,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -674,7 +1187,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll",
       "size": 25600,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -683,7 +1196,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll",
       "size": 12288,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -692,7 +1205,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll",
       "size": 10752,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -701,7 +1214,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll",
       "size": 9728,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -710,7 +1223,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.Monetization.dll",
       "size": 28672,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -719,7 +1232,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll",
       "size": 135168,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -728,7 +1241,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll",
       "size": 9216,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -737,7 +1250,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll",
       "size": 105984,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -746,7 +1259,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll",
       "size": 87040,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -755,7 +1268,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll",
       "size": 8704,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -764,7 +1277,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.Purchasing.dll",
       "size": 27648,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -773,7 +1286,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
       "size": 9728,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -782,7 +1295,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll",
       "size": 19456,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -791,7 +1304,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.SpatialTracking.dll",
       "size": 10240,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -800,7 +1313,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll",
       "size": 10240,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -809,7 +1322,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll",
       "size": 13824,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -818,7 +1331,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll",
       "size": 9728,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -827,7 +1340,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll",
       "size": 13312,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -836,7 +1349,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll",
       "size": 16896,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -845,7 +1358,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll",
       "size": 8704,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -854,7 +1367,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll",
       "size": 80384,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -863,7 +1376,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
       "size": 9728,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -871,8 +1384,8 @@
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreModule.dll",
-      "size": 185856,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "size": 185344,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -881,7 +1394,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll",
       "size": 27648,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -890,7 +1403,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll",
       "size": 25088,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -899,7 +1412,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
       "size": 226304,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -907,8 +1420,8 @@
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll",
-      "size": 726528,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "size": 726016,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -917,7 +1430,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll",
       "size": 23552,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -926,7 +1439,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UNETModule.dll",
       "size": 77312,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -935,7 +1448,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll",
       "size": 8704,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -944,7 +1457,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
       "size": 32768,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -953,7 +1466,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll",
       "size": 10752,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -962,7 +1475,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
       "size": 8704,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -971,7 +1484,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
       "size": 11776,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -980,7 +1493,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
       "size": 11264,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -989,7 +1502,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
       "size": 43008,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -998,7 +1511,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
       "size": 10752,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1007,7 +1520,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
       "size": 20480,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1016,7 +1529,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll",
       "size": 38912,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1025,7 +1538,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll",
       "size": 34816,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1034,7 +1547,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll",
       "size": 12800,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1043,7 +1556,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll",
       "size": 28672,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1052,7 +1565,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll",
       "size": 9728,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1061,7 +1574,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
       "size": 20992,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1070,7 +1583,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll",
       "size": 54272,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1079,7 +1592,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.dll",
       "size": 85504,
-      "last_updated_at": "2020-10-27T03:29:17Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1088,16 +1601,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
       "size": 230400,
-      "last_updated_at": "2021-04-23T18:15:04Z",
-      "format": "simple"
-    },
-    {
-      "name": "mcs.dll",
-      "path": "sBotics.app/Contents/Resources/Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/mcs.dll",
-      "size": 1847296,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
@@ -1110,6 +1614,1347 @@
       "format": "simple"
     },
     {
+      "name": "sBotics.dll",
+      "path": "sBotics.app/Contents/Resources/Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/sBotics.dll",
+      "size": 286720,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (GPU).app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(GPU).app/Contents/Info.plist",
+      "size": 965,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "BlockEduc Helper (GPU)",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (GPU).app/Contents/MacOS/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(GPU).app/Contents/MacOS/BlockEduc%20Helper%20(GPU)",
+      "size": 235912,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "PkgInfo",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (GPU).app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(GPU).app/Contents/PkgInfo",
+      "size": 8,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (Plugin).app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(Plugin).app/Contents/Info.plist",
+      "size": 974,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "BlockEduc Helper (Plugin)",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (Plugin).app/Contents/MacOS/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(Plugin).app/Contents/MacOS/BlockEduc%20Helper%20(Plugin)",
+      "size": 235912,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "PkgInfo",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (Plugin).app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(Plugin).app/Contents/PkgInfo",
+      "size": 8,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (Renderer).app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(Renderer).app/Contents/Info.plist",
+      "size": 980,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "BlockEduc Helper (Renderer)",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (Renderer).app/Contents/MacOS/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(Renderer).app/Contents/MacOS/BlockEduc%20Helper%20(Renderer)",
+      "size": 235912,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "PkgInfo",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper (Renderer).app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper%20(Renderer).app/Contents/PkgInfo",
+      "size": 8,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper.app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper.app/Contents/Info.plist",
+      "size": 940,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "BlockEduc Helper",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper.app/Contents/MacOS/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper.app/Contents/MacOS/BlockEduc%20Helper",
+      "size": 235912,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "PkgInfo",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc Helper.app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/BlockEduc%20Helper.app/Contents/PkgInfo",
+      "size": 8,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Electron Framework",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Electron%20Framework",
+      "size": 35,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Helpers",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Helpers",
+      "size": 24,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Libraries",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Libraries",
+      "size": 26,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Resources",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Resources",
+      "size": 26,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Electron Framework",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Electron%20Framework",
+      "size": 134,
+      "last_updated_at": "2021-06-05T01:58:57Z",
+      "format": "simple"
+    },
+    {
+      "name": "chrome_crashpad_handler",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+      "size": 1068256,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "libEGL.dylib",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Libraries/libEGL.dylib",
+      "size": 207368,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "libGLESv2.dylib",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Libraries/libGLESv2.dylib",
+      "size": 8739792,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "libffmpeg.dylib",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+      "size": 3000952,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "libswiftshader_libEGL.dylib",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Libraries/libswiftshader_libEGL.dylib",
+      "size": 238288,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "libswiftshader_libGLESv2.dylib",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Libraries/libswiftshader_libGLESv2.dylib",
+      "size": 2730632,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "libvk_swiftshader.dylib",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+      "size": 4243152,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "vk_swiftshader_icd.json",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Libraries/vk_swiftshader_icd.json",
+      "size": 110,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/Info.plist",
+      "size": 829,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "MainMenu.nib",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/MainMenu.nib",
+      "size": 2748,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/am.lproj/locale.pak",
+      "size": 147491,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ar.lproj/locale.pak",
+      "size": 150335,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/bg.lproj/locale.pak",
+      "size": 160787,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/bn.lproj/locale.pak",
+      "size": 211638,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ca.lproj/locale.pak",
+      "size": 103062,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "chrome_100_percent.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/chrome_100_percent.pak",
+      "size": 90342,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "chrome_200_percent.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/chrome_200_percent.pak",
+      "size": 135728,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/cs.lproj/locale.pak",
+      "size": 105203,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/da.lproj/locale.pak",
+      "size": 96063,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/de.lproj/locale.pak",
+      "size": 102414,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/el.lproj/locale.pak",
+      "size": 178891,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/en.lproj/locale.pak",
+      "size": 86066,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/en_GB.lproj/locale.pak",
+      "size": 85290,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/es.lproj/locale.pak",
+      "size": 102811,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/es_419.lproj/locale.pak",
+      "size": 100706,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/et.lproj/locale.pak",
+      "size": 92196,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/fa.lproj/locale.pak",
+      "size": 143863,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/fi.lproj/locale.pak",
+      "size": 94503,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/fil.lproj/locale.pak",
+      "size": 104860,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/fr.lproj/locale.pak",
+      "size": 111367,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/gu.lproj/locale.pak",
+      "size": 201852,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/he.lproj/locale.pak",
+      "size": 126430,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/hi.lproj/locale.pak",
+      "size": 209467,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/hr.lproj/locale.pak",
+      "size": 100444,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/hu.lproj/locale.pak",
+      "size": 107504,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "icudtl.dat",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/icudtl.dat",
+      "size": 10412752,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/id.lproj/locale.pak",
+      "size": 92301,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/it.lproj/locale.pak",
+      "size": 100207,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ja.lproj/locale.pak",
+      "size": 121271,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/kn.lproj/locale.pak",
+      "size": 231929,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ko.lproj/locale.pak",
+      "size": 101892,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/lt.lproj/locale.pak",
+      "size": 109174,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/lv.lproj/locale.pak",
+      "size": 108377,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ml.lproj/locale.pak",
+      "size": 243857,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/mr.lproj/locale.pak",
+      "size": 198131,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ms.lproj/locale.pak",
+      "size": 94703,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/nb.lproj/locale.pak",
+      "size": 93168,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/nl.lproj/locale.pak",
+      "size": 97253,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/pl.lproj/locale.pak",
+      "size": 105820,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/pt_BR.lproj/locale.pak",
+      "size": 100123,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/pt_PT.lproj/locale.pak",
+      "size": 100831,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "resources.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/resources.pak",
+      "size": 5134403,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ro.lproj/locale.pak",
+      "size": 103374,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ru.lproj/locale.pak",
+      "size": 163736,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/sk.lproj/locale.pak",
+      "size": 106975,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/sl.lproj/locale.pak",
+      "size": 102310,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/sr.lproj/locale.pak",
+      "size": 153872,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/sv.lproj/locale.pak",
+      "size": 93219,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/sw.lproj/locale.pak",
+      "size": 95121,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/ta.lproj/locale.pak",
+      "size": 238795,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/te.lproj/locale.pak",
+      "size": 221134,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/th.lproj/locale.pak",
+      "size": 189864,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/tr.lproj/locale.pak",
+      "size": 98309,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/uk.lproj/locale.pak",
+      "size": 164011,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "v8_context_snapshot.x86_64.bin",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/v8_context_snapshot.x86_64.bin",
+      "size": 164759,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/vi.lproj/locale.pak",
+      "size": 115833,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/zh_CN.lproj/locale.pak",
+      "size": 86319,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "locale.pak",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW.lproj/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/A/Resources/zh_TW.lproj/locale.pak",
+      "size": 86515,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Current",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron Framework.framework/Versions/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Electron%20Framework.framework/Versions/Current",
+      "size": 1,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Mantle",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Mantle",
+      "size": 23,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Resources",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Resources",
+      "size": 26,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Mantle",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Versions/A/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+      "size": 256960,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources/Info.plist",
+      "size": 1019,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Current",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Versions/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Mantle.framework/Versions/Current",
+      "size": 1,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "ReactiveObjC",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/ReactiveObjC",
+      "size": 29,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Resources",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/Resources",
+      "size": 26,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "ReactiveObjC",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+      "size": 553280,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources/Info.plist",
+      "size": 1139,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Current",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/Versions/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/ReactiveObjC.framework/Versions/Current",
+      "size": 1,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Resources",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Resources",
+      "size": 26,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Squirrel",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Squirrel",
+      "size": 25,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/Info.plist",
+      "size": 1176,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "ShipIt",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+      "size": 275944,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Squirrel",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/A/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+      "size": 295696,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Current",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Frameworks/Squirrel.framework/Versions/Current",
+      "size": 1,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Info.plist",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Info.plist",
+      "size": 2131,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "BlockEduc",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/MacOS/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/MacOS/BlockEduc",
+      "size": 365600,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "PkgInfo",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/PkgInfo",
+      "size": 8,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": ".gitignore",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/.gitignore",
+      "size": 17,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "LICENSE",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/LICENSE",
+      "size": 35149,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "README.md",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/README.md",
+      "size": 12,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "blockeduc.icns",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/blockeduc.icns",
+      "size": 28421,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "blockeduc.ico",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/blockeduc.ico",
+      "size": 4689,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "blockeduc.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/blockeduc.png",
+      "size": 12570,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "icon.icns",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/icon.icns",
+      "size": 27222,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "icon.ico",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/icon.ico",
+      "size": 103598,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "icon.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/icon/icon.png",
+      "size": 13541,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Config.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/Config.png",
+      "size": 17543,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Prog.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/Prog.png",
+      "size": 520,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Save.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/Save.png",
+      "size": 1011,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Tutorial.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/Tutorial.png",
+      "size": 1616,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "export.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/export.png",
+      "size": 838,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "import.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Icon/import.png",
+      "size": 800,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "IconStart.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/IconStart.png",
+      "size": 4307,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "Dark_Loader.svg",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Loader/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Loader/Dark_Loader.svg",
+      "size": 309,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "White_Loader.svg",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Loader/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/Loader/White_Loader.svg",
+      "size": 309,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "choro.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/choro.png",
+      "size": 9512,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "favicon.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/favicon.png",
+      "size": 23160,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "feliz.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/feliz.png",
+      "size": 9550,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "info.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/info.png",
+      "size": 11546,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "pensativo.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/pensativo.png",
+      "size": 11158,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "ripe.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/ripe.png",
+      "size": 9161,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "sono.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/sono.png",
+      "size": 10028,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "zullred.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/ZUL/zullred.png",
+      "size": 9066,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "zul_logo_White.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/img/zul_logo_White.png",
+      "size": 13563,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "en.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/lang/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/lang/en.png",
+      "size": 39282,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "pt-br.png",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/lang/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/assets/lang/pt-br.png",
+      "size": 37695,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "en.js",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/lang/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/lang/en.js",
+      "size": 3479,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "pt_BR.js",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/lang/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/lang/pt_BR.js",
+      "size": 3675,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "main.js",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/main.js",
+      "size": 1085,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "package.json",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/package.json",
+      "size": 1473,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "editor.html",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/routes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/routes/editor.html",
+      "size": 83870,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "load.html",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/routes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/routes/load.html",
+      "size": 16756,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "dark_mode.css",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/editor/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/editor/dark_mode.css",
+      "size": 0,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "white_mode.css",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/editor/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/editor/white_mode.css",
+      "size": 7566,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "dark_mode.css",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/load/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/load/dark_mode.css",
+      "size": 4479,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "white_mode.css",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/load/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/load/white_mode.css",
+      "size": 4478,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "color_switch.css",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/switch/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/switch/color_switch.css",
+      "size": 10411,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "material_switch.css",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/switch/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/css/switch/material_switch.css",
+      "size": 996,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "loadColorMode.js",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/js/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/app/src/js/loadColorMode.js",
+      "size": 774,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
+      "name": "electron.icns",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/BlockEduc.app/Contents/Resources/electron.icns",
+      "size": 28421,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "simple"
+    },
+    {
       "name": "Insert your addons here",
       "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/Addons/",
       "type": "file",
@@ -1119,21 +2964,66 @@
       "format": "simple"
     },
     {
+      "name": "ColorTheme.json.zip",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/ColorTheme.json.zip",
+      "size": 867,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "zip"
+    },
+    {
       "name": "KeyBinding.json.zip",
       "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/KeyBinding.json.zip",
-      "size": 739,
-      "last_updated_at": "2021-05-08T00:17:39Z",
+      "size": 832,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "zip"
     },
     {
-      "name": "colorSchema.json.zip",
+      "name": "C#-en.json.zip",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/C%23-en.json.zip",
+      "size": 987,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "zip"
+    },
+    {
+      "name": "C#-pt_BR.json.zip",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/C%23-pt_BR.json.zip",
+      "size": 1008,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "zip"
+    },
+    {
+      "name": "rEduc-en.json.zip",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/rEduc-en.json.zip",
+      "size": 606,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "zip"
+    },
+    {
+      "name": "rEduc-pt_BR.json.zip",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/ProgrammingThemes/rEduc-pt_BR.json.zip",
+      "size": 640,
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "zip"
+    },
+    {
+      "name": "Skybox.json.zip",
       "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/colorSchema.json.zip",
-      "size": 882,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/Skybox.json.zip",
+      "size": 202,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "zip"
     },
     {
@@ -1142,7 +3032,16 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/robots.png.zip",
       "size": 611521,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
+      "format": "zip"
+    },
+    {
+      "name": "skybox.jpg.zip",
+      "path": "sBotics.app/Contents/Resources/Data/StreamingAssets/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/StreamingAssets/skybox.jpg.zip",
+      "size": 1329547,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "zip"
     },
     {
@@ -1168,17 +3067,17 @@
       "path": "sBotics.app/Contents/Resources/Data/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/data.unity3d",
-      "size": 11565856,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "size": 8689079,
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
-      "name": "sharedassets2.resource",
+      "name": "sharedassets1.resource",
       "path": "sBotics.app/Contents/Resources/Data/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/sharedassets2.resource",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/sharedassets1.resource",
       "size": 3872,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T02:04:46Z",
       "format": "simple"
     },
     {
