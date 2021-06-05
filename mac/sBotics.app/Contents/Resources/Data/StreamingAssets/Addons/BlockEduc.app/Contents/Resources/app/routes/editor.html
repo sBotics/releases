@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Editor - BlockEduc</title>
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/css/switch/color_switch.css">
+    <link rel="stylesheet" href="../src/css/switch/material_switch.css">
+    <link rel="stylesheet" href="../src/css/editor/white_mode.css">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js?version=7"></script>
+
+    <script src="https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/blockly_uncompressed.js"></script>
+    <!-- LANGUAGE -->
+    <script>
+        var langSave = localStorage.getItem("Language");
+        if (langSave != "" && langSave != null) {
+            var script = document.createElement('script');
+            script.onload = function() {
+                ServerImportJS();
+            };
+
+            script.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+
+            script.src = "../lang/" + langSave + ".js";
+            document.getElementsByTagName('head')[0].appendChild(script);
+        } else {
+            var script = document.createElement('script');
+            script.onload = function() {
+                ServerImportJS();
+            };
+            script.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            script.src = "../lang/us.js";
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="content" id="contentERROR">
+        <div id="content">
+            <div id="blocklyDiv"></div>
+            <textarea id="textarea" style="bottom: 0; height: 1000px; width: 800px; display: block; overflow: hidden;"></textarea>
+        </div>
+
+
+        <div class="content_menu_direita">
+
+            <!-- Name Code -->
+            <div class="content_body_menu Card_Name">
+                <img onclick="cardName(true)" id="Card_Name_Icon" class="img_menu_icon" src="../assets/img/Icon/Prog.png" alt="Programa">
+                <div id="Card_Name_Open" class="container_menu">
+                    <input class="form-control form-control-sm input_menu_icon" id="CodeNameText" type="text" value="" aria-label="Disabled input example" disabled>
+                    <i onclick="cardName(false)" class="fas fa-angle-double-right back_menu_icon AnimatedPush"></i>
+                </div>
+            </div>
+
+            <!-- Save Code -->
+            <div class="content_body_menu Card_Save" style="cursor: pointer;" onclick="SalvarCodigo()" onmouseover="cardSave(true)" onmouseout="cardSave(false)">
+                <img onclick="cardName(true)" id="Card_Save_Icon" class="img_menu_icon" src="../assets/img/Icon/Save.png" alt="Programa">
+                <div id="Card_Save_Open" class="container_menu">
+                    <p id="Card_Save_Text" class="text_menu_simple">Salvar</p>
+                </div>
+            </div>
+
+            <!-- IMPORT Code -->
+            <label for="ImportCode" class="content_body_menu Card_Import" style="cursor: pointer;" onmouseover="cardImport(true)" onmouseout="cardImport(false)">
+                <img id="Card_Import_Icon" class="img_menu_icon" src="../assets/img/Icon/import.png" alt="Programa">
+                <div id="Card_Import_Open" class="container_menu">
+                    <p id="Card_Import_Text" class="text_menu_simple">Importar Código</p>
+                </div>
+            </label>
+            <input type="file" name="file" style="display: none;" id="ImportCode" onchange="CodeImport()">
+
+            <!-- EXPORT Code -->
+            <div class="content_body_menu Card_Export" style="cursor: pointer;" onclick="ExportCode()" onmouseover="cardExport(true)" onmouseout="cardExport(false)">
+                <img id="Card_Export_Icon" class="img_menu_icon" src="../assets/img/Icon/export.png" alt="Programa">
+                <div id="Card_Export_Open" class="container_menu">
+                    <p id="Card_Export_Text" class="text_menu_simple">Exportar Código</p>
+                </div>
+            </div>
+
+            <!-- Tutorial -->
+            <div class="content_body_menu Card_Tutorial" style="cursor: pointer;" onclick="cardTutorialHref()" onmouseover="cardTutorial(true)" onmouseout="cardTutorial(false)">
+                <img id="Card_Tutorial_Icon" class="img_menu_icon" src="../assets/img/Icon/Tutorial.png" alt="Programa">
+                <div id="Card_Tutorial_Open" class="container_menu">
+                    <p id="Card_Tutorial_Text" class="text_menu_simple">Tutorial</p>
+                </div>
+            </div>
+
+            <!-- Configuration -->
+            <div class="content_body_config">
+                <div id="Card_Config_Header" class="header_config">
+                    <div class="icon_text_config">
+                        <img onclick="cardConfiguracao(true)" id="Card_Config_Icon" class="img_config_icon" src="../assets/img/Icon/Config.png" alt="Programa">
+                        <p id="Card_Config_Text" class="text_config_simple">Configurações</p>
+                    </div>
+                    <div id="Card_Config_Open" style="display: none;" class="container_menu">
+                        <i onclick="cardConfiguracao(false)" class="fas fa-angle-double-right back_menu_icon AnimatedPush"></i>
+                    </div>
+                </div>
+                <div id="Card_Config_Menu">
+                    <div class="config_menu">
+                        <div onclick="menu_simple('1')" id="menu_simple_aparencia" class="option_menu  options_True">
+                            <p id="ConfigSimple_Text_aparencia" class="text_option_menu">Aparência</p>
+                        </div>
+                        <div onclick="menu_simple('2')" id="menu_simple_idioma" class="option_menu ">
+                            <p id="ConfigSimple_Text_idioma" class="text_option_menu">Idioma</p>
+                        </div>
+                        <!-- <div class="option_menu options_False">
+                        <p class="text_option_menu">Atualizações</p>
+                    </div> -->
+                    </div>
+                    <div class="body_config">
+                        <div id="simple_config_aparencia" class="config_aparencia">
+                            <div class="container_config_aparencia">
+                                <p id="ConfigSimple_Text_corPadrao" class="container_Text">Usar modo de cor padrão</p>
+                                <div class="material-switch pull-right switch_space">
+                                    <input id="option_color_padrao" name="option_color_padrao" type="checkbox" checked/>
+                                    <label for="option_color_padrao" class="label-success"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="simple_config_idioma" style="display: none;" class="config_idioma">
+                            <div class="container_config_idioma">
+                                <p id="ConfigSimple_text_selectIdioma" class="container_Text">Selecione um idioma</p>
+                                <div class="config_select_idioma">
+                                    <div class="idioma_bandeira">
+
+                                        <div onClick="SwitchLang('pt_BR')" class="container_idioma_flag">
+                                            <div id="Flag_PTBR_A" class="border_create_flag">
+                                                <img class="img_idioma_flag" src="../assets/lang/pt-br.png" alt="">
+                                            </div>
+                                            <div id="Flag_PTBR_B" class="content_flag_text">
+                                                <p class="flag_text">PT-BR</p>
+                                            </div>
+                                        </div>
+
+                                        <div onClick="SwitchLang('en')" class=" container_idioma_flag space_bandeira">
+                                            <div id="Flag_US_A" class="border_create_flag">
+                                                <img class="img_idioma_flag" src="../assets/lang/en.png" alt="">
+                                            </div>
+                                            <div id="Flag_US_B" class="content_flag_text">
+                                                <p class="flag_text">EN</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="body_footer" style="justify-content: flex-end;">
+                            <!-- <p id="ConfigSimple_Text_ConfigAdvanced" class="Btn_ConfAvan">Configurações Avançadas</p> -->
+                            <p id="ConfigSimple_Text_Version" class="text_version"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function ServerImportJS() {
+            var CodeLang = localStorage.getItem("CodeLang");
+            var langSave = localStorage.getItem("Language");
+
+            if (CodeLang == "pt_BR") {
+                CodeLang = "pt-br";
+            }
+
+            // ->> R-Educ JavaScriptController
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+
+                console.log("True eeee");
+                ServerImport(CodeLang);
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/generators/lang/" + CodeLang + "/javascript.js?version=1";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+        }
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            var css = document.createElement('link');
+            css.onload = function() {
+                console.log("Import Text Sucess!")
+            };
+
+            css.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+
+            css.href = "https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css";
+            css.rel = "stylesheet";
+            document.getElementsByTagName('head')[0].appendChild(css);
+        } else {
+            var css = document.createElement('link');
+            css.onload = function() {
+                console.log("Import Text Sucess!")
+            };
+
+            css.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+
+            css.href = "https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal/minimal.css";
+            css.rel = "stylesheet";
+            document.getElementsByTagName('head')[0].appendChild(css);
+        }
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            var css = document.createElement('link');
+            css.onload = function() {
+                console.log("Import Text Sucess!")
+            };
+
+            css.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+
+            css.href = "https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css";
+            css.rel = "stylesheet";
+            document.getElementsByTagName('head')[0].appendChild(css);
+        } else {
+            var css = document.createElement('link');
+            css.onload = function() {
+                console.log("Import Text Sucess!")
+            };
+
+            css.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+
+            css.href = "https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal/minimal.css";
+            css.rel = "stylesheet";
+            document.getElementsByTagName('head')[0].appendChild(css);
+        }
+
+        function ServerImport(CodeLang) {
+            console.log("Iniciando...");
+            // var CodeLang = localStorage.getItem("CodeLang");
+            var langSave = localStorage.getItem("Language");
+            var StatesImport = false;
+
+            // ->> R-educ funcoes
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/blocks/" + CodeLang + "/blockREduc.js?version=1";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/blocks/" + CodeLang + "/blockREducDefault.js?version=2";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            // ->> Logic Condicional
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/generators/javascript/" + CodeLang + "/logic.js?version=1";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            // ->> Tarefa
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/generators/javascript/" + CodeLang + "/procedures.js?version=1";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            // ->> Message Interface
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/msg/" + CodeLang + ".js?version=1";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            // ->> Variable Import View
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/demos/custom-dialogs/" + CodeLang + "/custom-dialog.js?version=1";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            // ->> Variable Import View
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/blocks/logic.js?version=3";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/blocks/procedures.js?version=6";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/blocks/variables.js?version=6";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/generators/javascript/variables.js?version=7";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            var Lang_Blockly = document.createElement('script');
+            Lang_Blockly.onload = function() {
+                StatesImport = true
+            };
+            Lang_Blockly.onerror = function() {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            };
+            Lang_Blockly.src = "https://sbotics.weduc.natalnet.br/import/BlockEduc/BlocklyReduc/tests/playgrounds/screenshot.js?version=7";
+            document.getElementsByTagName('head')[0].appendChild(Lang_Blockly);
+
+            LoadLang(langSave);
+        }
+
+        // ->> Language <<-
+        var ID_FLAG_A = "";
+        var ID_FLAG_B = "";
+        var ReloadLang = 1;
+
+        function LoadLang(lang) {
+
+            if (ID_FLAG_A != "" && ID_FLAG_B != "") {
+                document.getElementById(language.ID_FLAG_A).classList.add("flag_select");
+                document.getElementById(language.ID_FLAG_B).classList.add("flag_select");
+
+                document.getElementById(ID_FLAG_A).classList.remove("flag_select");
+                document.getElementById(ID_FLAG_B).classList.remove("flag_select");
+
+                ID_FLAG_A = language.ID_FLAG_A;
+                ID_FLAG_B = language.ID_FLAG_B;
+            } else {
+                document.getElementById(language.ID_FLAG_A).classList.add("flag_select");
+                document.getElementById(language.ID_FLAG_B).classList.add("flag_select");
+
+                ID_FLAG_A = language.ID_FLAG_A;
+                ID_FLAG_B = language.ID_FLAG_B;
+            }
+
+            // Card_Menu_Text
+            document.getElementById("Card_Save_Text").innerText = language.EDITOR_FUNCTION_SAVE.toString();
+            document.getElementById("Card_Import_Text").innerText = language.EDITOR_FUNCTION_IMPORT.toString();
+            document.getElementById("Card_Export_Text").innerText = language.EDITOR_FUNCTION_EXPORT.toString();
+            document.getElementById("Card_Tutorial_Text").innerText = language.EDITOR_FUNCTION_TUTORIAL.toString();
+            document.getElementById("Card_Config_Text").innerText = language.EDITOR_CONFIG_SIMPLE.toString();
+
+            document.getElementById("ConfigSimple_Text_aparencia").innerText = language.EDITOR_CONFIG_MENU_APPEARANCE.toString();
+            document.getElementById("ConfigSimple_Text_idioma").innerText = language.EDITOR_CONFIG_MENU_LANGUAGE.toString();
+            document.getElementById("ConfigSimple_Text_corPadrao").innerText = language.EDITOR_TEXT_MENU_APPEARANCE_COLOR_PATTERN.toString();
+            document.getElementById("ConfigSimple_text_selectIdioma").innerText = language.EDITOR_TEXT_MENU_LANGUAGE_SELECT.toString();
+            // document.getElementById("ConfigSimple_Text_ConfigAdvanced").innerText = language.EDITOR_CONFIG_ADVANCED.toString();
+
+            const getVersion = localStorage.getItem("VersionSystem");
+            document.getElementById("ConfigSimple_Text_Version").innerHTML = language.TEXT_VERSION.toString() + " " + getVersion;
+
+            if (ReloadLang != 0) {
+                Init();
+            }
+
+        }
+
+        const SwitchLang = (lang) => {
+            console.log("Lang update: " + lang);
+            console.log("Alterando linguagem...")
+            localStorage.setItem("Language", lang);
+
+            var script = document.createElement('script');
+            script.onload = function() {
+                LoadLang(langSave);
+            };
+            script.src = "../lang/" + lang + ".js";
+            script.id = "TesteTop";
+            document.getElementsByTagName('body')[0].appendChild(script);
+            ReloadLang = 1;
+
+        }
+
+        // ->> Interface Controller <<-
+        const cardName = (states) => {
+            const Card_Name_Open = document.getElementById("Card_Name_Open");
+            const Card_Name_Icon = document.getElementById("Card_Name_Icon");
+
+            if (states == true) {
+                Card_Name_Open.style.display = "flex";
+                Card_Name_Icon.style.cursor = "default";
+            } else {
+                Card_Name_Open.style.display = "none";
+                Card_Name_Icon.style.cursor = "pointer";
+            }
+        }
+
+        const cardSave = (states) => {
+            const Card_Save_Open = document.getElementById("Card_Save_Open");
+            const Card_Save_Icon = document.getElementById("Card_Save_Icon");
+            Card_Save_Icon.style.cursor = "pointer";
+            if (states == true) {
+                Card_Save_Open.style.display = "flex";
+            } else {
+                Card_Save_Open.style.display = "none";
+            }
+        }
+
+        const cardImport = (states) => {
+            const Card_Import_Open = document.getElementById("Card_Import_Open");
+            const Card_Import_Icon = document.getElementById("Card_Import_Icon");
+            Card_Import_Icon.style.cursor = "pointer";
+            if (states == true) {
+                Card_Import_Open.style.display = "flex";
+            } else {
+                Card_Import_Open.style.display = "none";
+            }
+        }
+
+        const cardExport = (states) => {
+            const Card_Export_Open = document.getElementById("Card_Export_Open");
+            const Card_Export_Icon = document.getElementById("Card_Export_Icon");
+            Card_Export_Icon.style.cursor = "pointer";
+            if (states == true) {
+                Card_Export_Open.style.display = "flex";
+            } else {
+                Card_Export_Open.style.display = "none";
+            }
+        }
+
+        const cardTutorial = (states) => {
+            const Card_Tutorial_Open = document.getElementById("Card_Tutorial_Open");
+            const Card_Tutorial_Icon = document.getElementById("Card_Tutorial_Icon");
+            Card_Tutorial_Icon.style.cursor = "pointer";
+            if (states == true) {
+                Card_Tutorial_Open.style.display = "flex";
+            } else {
+                Card_Tutorial_Open.style.display = "none";
+            }
+        }
+
+        const cardConfiguracao = (states) => {
+            const Card_Config_Header = document.getElementById("Card_Config_Header");
+            const Card_Config_Open = document.getElementById("Card_Config_Open");
+            const Card_Config_Text = document.getElementById("Card_Config_Text");
+            const Card_Config_Icon = document.getElementById("Card_Config_Icon");
+            const Card_Config_Menu = document.getElementById("Card_Config_Menu");
+
+            if (states == true) {
+                Card_Config_Header.style.borderRadius = "10px 0px 0px 0px";
+                Card_Config_Open.style.display = "flex";
+                Card_Config_Text.style.display = "block";
+                Card_Config_Menu.style.display = "block";
+                Card_Config_Icon.style.cursor = "default";
+            } else {
+                Card_Config_Header.style.borderRadius = "10px 0px 0px 10px";
+                Card_Config_Open.style.display = "none";
+                Card_Config_Text.style.display = "none";
+                Card_Config_Menu.style.display = "none";
+                Card_Config_Icon.style.cursor = "pointer";
+            }
+        }
+
+        const menu_simple = (stage) => {
+            // Menu
+            const menu_simple_aparencia = document.getElementById("menu_simple_aparencia");
+            const menu_simple_idioma = document.getElementById("menu_simple_idioma");
+
+            // Table
+            const simple_config_aparencia = document.getElementById("simple_config_aparencia");
+            const simple_config_idioma = document.getElementById("simple_config_idioma");
+
+            if (stage == 1) {
+                menu_simple_aparencia.classList.add("options_True");
+                menu_simple_idioma.classList.remove("options_True");
+                simple_config_aparencia.style.display = "flex";
+                simple_config_idioma.style.display = "none";
+            } else if (stage == 2) {
+                menu_simple_aparencia.classList.remove("options_True");
+                menu_simple_idioma.classList.add("options_True");
+                simple_config_aparencia.style.display = "none";
+                simple_config_idioma.style.display = "flex";
+            }
+            oldMenuSimpleStage = stage;
+        }
+
+        const cardTutorialHref = () => {
+            // window.location.href ="https://weduc.natalnet.br/sbotics/tutorial/block";
+            window.open(
+                'https://sbotics.weduc.natalnet.br/functions/',
+                '_blank' // <- This is what makes it open in a new window.
+            );
+        };
+
+        // --> Blockly Start <-- 
+
+        var blocklyArea = document.getElementById('content');
+        var blocklyDiv = document.getElementById('blocklyDiv');
+        var toolbox = document.getElementById("toolbox");
+
+        var TokenUser = localStorage.getItem("TokenUser");
+        var CodeId = localStorage.getItem("CodeId");
+        var CodeName = localStorage.getItem("CodeName");
+
+        var ToolBoxRead = localStorage.getItem("ToolBoxRead");
+
+        // statusInternetVerification();
+
+        function statusInternetVerification() {
+            var xmlhttp = new XMLHttpRequest();
+            var theUrl = "https://www.google.com.br/";
+            xmlhttp.open("GET", theUrl);
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState === 4) {
+                    // console.log('Status:', this.status);
+                    // console.log('Headers:', this.getAllResponseHeaders());
+                    // console.log('Body:', this.responseText);
+                    if (this.status === 200) {
+                        const Toast = Swal.mixin({
+                            toast: true,
+                            position: 'center',
+                            showConfirmButton: false,
+                            timer: 3000,
+                            timerProgressBar: true,
+                            onOpen: (function(toast) {
+                                toast.addEventListener('mouseenter', Swal.stopTimer)
+                                toast.addEventListener('mouseleave', Swal.resumeTimer)
+                            })
+                        })
+
+                        Toast.fire({
+                            icon: 'success',
+                            title: language.ALERT_INTERNET_CONNECT.toString()
+                        })
+                    } else {
+                        // document.getElementById("HeaderNav").style.display = "none";
+                        // document.getElementById("content").style.display = "none";
+                        let timerInterval
+                        Swal.fire({
+                            title: language.ALERT_INTERNET_NOTCONNECT.toString(),
+                            html: language.ALERT_AUTO_CLOSE.toString(),
+                            timer: 3000,
+                            timerProgressBar: true,
+                            onBeforeOpen: () => {
+                                Swal.showLoading()
+                            },
+                            onClose: () => {
+                                clearInterval(timerInterval);
+                                window.close();
+                            }
+                        }).then((result) => {
+                            window.close();
+                        })
+                    }
+                }
+            };
+            xmlhttp.send();
+        }
+
+
+        var ErroCheckSystem = 0;
+
+        function Init() {
+            console.log("Init Code!");
+            try {
+                console.log("CodeId: " + CodeId);
+                console.log("CodeName: " + CodeName);
+                if ((TokenUser == "") || (TokenUser == null)) {
+                    ErroCheckSystem = 1;
+                }
+                if (CodeName == "" || CodeName == null) {
+                    ErroCheckSystem = 1;
+                }
+                if (CodeId == "" || CodeId == null) {
+                    ErroCheckSystem = 1;
+                }
+                if (ToolBoxRead == "" || ToolBoxRead == null) {
+                    ErroCheckSystem = 1;
+                }
+
+                if (ErroCheckSystem == 1) {
+                    let timerInterval
+                    Swal.fire({
+                        title: language.TEXT_FATALERROR.toString(),
+                        html: language.ALERT_INTERNET_NOTCONNECT.toString(),
+                        timer: 2000,
+                        timerProgressBar: true,
+                        onBeforeOpen: () => {
+                            Swal.showLoading()
+                        },
+                        onClose: () => {
+                            clearInterval(timerInterval);
+                            window.close();
+                        }
+                    }).then((result) => {
+                        window.close();
+                    })
+                } else {
+                    document.getElementById('CodeNameText').value = CodeName + "#" + CodeId;
+                    InternetChackBlockLy();
+                }
+            } catch (error) {
+                console.log("Erro log!")
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_INTERNET_NOTCONNECT.toString(),
+                    timer: 2000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            }
+        };
+
+        function InternetChackBlockLy() {
+            try {
+                if (ErroCheckSystem != 1) {
+                    var xmlhttp = new XMLHttpRequest();
+                    var theUrl = "https://www.google.com.br/";
+                    xmlhttp.open("GET", theUrl);
+                    xmlhttp.onreadystatechange = function() {
+                        if (this.readyState === 4) {
+                            // console.log('Status:', this.status);
+                            // console.log('Headers:', this.getAllResponseHeaders());
+                            // console.log('Body:', this.responseText);
+                            if (this.status === 200) {
+
+                                const Toast = Swal.mixin({
+                                    toast: true,
+                                    position: 'center',
+                                    showConfirmButton: false,
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onOpen: (function(toast) {
+                                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                    })
+                                })
+
+                                Toast.fire({
+                                    icon: 'success',
+                                    title: language.ALERT_INTERNET_CONNECT.toString()
+                                })
+
+                            } else {
+                                // document.getElementById("HeaderNav").style.display = "none";
+                                // document.getElementById("content").style.display = "none";
+                                let timerInterval
+                                Swal.fire({
+                                    title: language.ALERT_INTERNET_NOTCONNECT.toString(),
+                                    html: language.ALERT_AUTO_CLOSE.toString(),
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onBeforeOpen: () => {
+                                        Swal.showLoading()
+                                    },
+                                    onClose: () => {
+                                        clearInterval(timerInterval);
+                                        window.close();
+                                    }
+                                }).then((result) => {
+                                    window.close();
+                                })
+                            }
+                        }
+                    };
+                    xmlhttp.send();
+                }
+            } catch (error) {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 1500,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            }
+
+        };
+
+
+        $(window).keypress(function(event) {
+            console.log("Tecla precionada!")
+            console.log(event.type + ": " + event.which)
+
+
+            if (event.ctrlKey && !event.shiftKey && event.which === 9) {
+                //console.log("Importar Código!!!");
+                AtalhoImportCode();
+                event.preventDefault();
+                return false;
+            } else if (event.ctrlKey && !event.shiftKey && event.which === 5) {
+                //console.log("Exportar Código!!!");
+                ExportCode();
+                event.preventDefault();
+                return false;
+            } else if (event.ctrlKey && !event.shiftKey && event.which === 19) {
+                //console.log("Salvar Código!!!");
+                SalvarCodigo();
+                event.preventDefault();
+                return false;
+            } else if (event.ctrlKey && !event.shiftKey && event.which === 16) {
+                //console.log("Print do código!!!");
+                PrintScreen();
+                event.preventDefault();
+                return false;
+            } else if (event.ctrlKey && event.shiftKey && event.which === 23) {
+                //console.log("Console");
+                Exit();
+                event.preventDefault();
+                return false;
+            } else {
+                return true;
+            }
+
+        });
+
+        function Exit() {
+            window.close();
+        }
+        // $(window).keypress(function(event) {
+        //     console.log("Tecla precionada!")
+        //     console.log(event.type + ": " + event.which)
+
+
+        //     if (event.ctrlKey && !event.shiftKey && event.which === 9) {
+        //         //console.log("Importar Código!!!");
+        //         InitInportCode();
+        //         event.preventDefault();
+        //         return false;
+        //     } else if (event.ctrlKey && !event.shiftKey && event.which === 5) {
+        //         //console.log("Exportar Código!!!");
+        //         exportarCode();
+        //         event.preventDefault();
+        //         return false;
+        //     } else if (event.ctrlKey && !event.shiftKey && event.which === 19) {
+        //         //console.log("Salvar Código!!!");
+        //         salvar();
+        //         event.preventDefault();
+        //         return false;
+        //     } else if (event.ctrlKey && !event.shiftKey && event.which === 16) {
+        //         //console.log("Print do código!!!");
+        //         PrintScreen();
+        //         event.preventDefault();
+        //         return false;
+        //     } else if (event.ctrlKey && event.shiftKey && event.which === 23) {
+        //         //console.log("Console");
+        //         Exit();
+        //         event.preventDefault();
+        //         return false;
+        //     } else if (event.ctrlKey && event.shiftKey && event.which === 10) {
+        //         // console.log("Ativar Visualização de Código!");
+        //         ActiveRV();
+        //         event.preventDefault();
+        //         return false;
+        //     } else if (event.ctrlKey && event.shiftKey && event.which === 14) {
+        //         //console.log("Ativar Visualização de Código!");
+        //         if (ActiveRVTrocarLinguagem > 0 && ActiveRVTrocarLinguagem < 5) {
+        //             if (ActiveRVTrocarLinguagem != 4) {
+        //                 ActiveRVTrocarLinguagem = ActiveRVTrocarLinguagem + 1;
+        //                 ActiveRVSelectLinguagem();
+        //             }
+        //         }
+        //         event.preventDefault();
+        //         // console.log("ActiveRVTrocarLinguagem: " + ActiveRVTrocarLinguagem);
+        //         return false;
+        //     } else if (event.ctrlKey && event.shiftKey && event.which === 2) {
+        //         //console.log("Ativar Visualização de Código!");
+        //         if (ActiveRVTrocarLinguagem > 0 && ActiveRVTrocarLinguagem < 5) {
+        //             if (ActiveRVTrocarLinguagem != 1) {
+        //                 ActiveRVTrocarLinguagem = ActiveRVTrocarLinguagem - 1;
+        //                 ActiveRVSelectLinguagem();
+        //             }
+        //         }
+        //         event.preventDefault();
+        //         // console.log("ActiveRVTrocarLinguagem: " + ActiveRVTrocarLinguagem);
+        //         return false;
+        //     } else {
+        //         return true;
+        //     }
+
+        // });
+
+
+
+        var ActiveRVLinguagem = "";
+        var ActiveRVTrocarLinguagem = 1;
+        var workspace = "";
+
+        var DarkMode_Blockly = {
+            collapse: true,
+            comments: true,
+            disable: false, //Veficicar
+            grid: {
+                spacing: 20,
+                length: 1,
+                colour: '#888',
+                snap: true
+            },
+            horizontalLayout: false,
+            maxBlocks: Infinity,
+            maxInstances: {
+                'test_basic_limit_instances': 3
+            },
+            maxTrashcanContents: 256,
+            trashcan: true,
+            media: 'https://blockly-demo.appspot.com/static/media/',
+            oneBasedIndex: true,
+            css: true,
+            readOnly: false,
+            rtl: false,
+            move: {
+                scrollbars: true,
+                drag: true,
+                wheel: false,
+            },
+            sounds: true,
+            toolbox: ToolBoxRead,
+            toolboxPosition: 'fixed',
+            zoom: {
+                controls: true,
+                wheel: true,
+                startScale: 1,
+                maxScale: 4,
+                minScale: 0.25,
+                scaleSpeed: 1.1
+            },
+            theme: {
+                'componentStyles': {
+                    'workspaceBackgroundColour': '#1e1e1e',
+                    'toolboxBackgroundColour': '#333',
+                    'toolboxForegroundColour': '#fff',
+                    'flyoutBackgroundColour': '#252526',
+                    'flyoutForegroundColour': '#ccc',
+                    'flyoutOpacity': 1,
+                    'scrollbarColour': '#797979',
+                    'insertionMarkerColour': '#fff',
+                    'insertionMarkerOpacity': 0.3,
+                    'scrollbarOpacity': 0.4,
+                    'cursorColour': '#d0d0d0'
+                }
+            }
+        };
+
+        var WhiteMode_Blockly = {
+            collapse: true,
+            comments: true,
+            disable: false, //Veficicar
+            grid: {
+                spacing: 20,
+                length: 1,
+                colour: '#888',
+                snap: true
+            },
+            horizontalLayout: false,
+            maxBlocks: Infinity,
+            maxInstances: {
+                'test_basic_limit_instances': 3
+            },
+            maxTrashcanContents: 256,
+            trashcan: true,
+            media: 'https://blockly-demo.appspot.com/static/media/',
+            oneBasedIndex: true,
+            css: true,
+            readOnly: false,
+            rtl: false,
+            move: {
+                scrollbars: true,
+                drag: true,
+                wheel: false,
+            },
+            sounds: true,
+            toolbox: ToolBoxRead,
+            toolboxPosition: 'fixed',
+            zoom: {
+                controls: true,
+                wheel: true,
+                startScale: 1,
+                maxScale: 4,
+                minScale: 0.25,
+                scaleSpeed: 1.1
+            }
+        };
+
+        // Dark Mode and Light Mode
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            workspace = Blockly.inject('blocklyDiv', WhiteMode_Blockly);
+        } else {
+            workspace = Blockly.inject('blocklyDiv', DarkMode_Blockly);
+        }
+
+        // window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        //     const newColorScheme = e.matches ? 'dark' : 'light'
+
+        //     if (newColorScheme == 'dark') {
+        //         console.log("Dark Alternative")
+        //         workspace = Blockly.inject('blocklyDiv', DarkMode_Blockly);
+        //     } else {
+        //         console.log("White Alternative")
+        //         workspace = Blockly.inject('blocklyDiv', WhiteMode_Blockly);
+        //     }
+        // })
+
+        /* Start */
+
+        workspace.configureContextMenu = configureContextMenu.bind(workspace);
+
+        function configureContextMenu(menuOptions, e) {
+            var workspace = this;
+            var screenshotOption = {
+                text: language.EDITOR_TEXT_PRINTSCREEN.toString(),
+                enabled: workspace.getTopBlocks().length,
+                callback: function() {
+                    Blockly.downloadScreenshot(workspace);
+                }
+            };
+            menuOptions.push(screenshotOption);
+            // Adds a default-sized workspace comment to the workspace.
+            menuOptions.push(Blockly.ContextMenu.workspaceCommentOption(workspace, e));
+        }
+
+        var onresize = function(e) {
+            // Compute the absolute coordinates and dimensions of blocklyArea.
+            var element = blocklyArea;
+            var x = 0;
+            var y = 0;
+            do {
+                x += element.offsetLeft;
+                y += element.offsetTop;
+                element = element.offsetParent;
+            } while (element);
+            // Position blocklyDiv over blocklyArea.
+            blocklyDiv.style.left = x + 'px';
+            blocklyDiv.style.top = y + 'px';
+            blocklyDiv.style.width = blocklyArea.offsetWidth + 'px';
+            blocklyDiv.style.height = blocklyArea.offsetHeight + 'px';
+            Blockly.svgResize(workspace);
+        };
+        window.addEventListener('resize', onresize, false);
+        onresize();
+        Blockly.svgResize(workspace);
+        setTimeout(() => {
+            // Import Code XML
+            try {
+                xml_textImport = localStorage.getItem("CodeImportXMl");
+                console.log("Código XML" + xml_textImport);
+                var StatusAtualization = 0;
+                if (xml_textImport != "" || xml_textImport != null) {
+                    if (xml_textImport.includes('deletable="false" movable="false"') == false) {
+                        xml_textImport = xml_textImport.replace('type="start"', 'type="start" deletable="false" movable="false"');
+                        StatusAtualization = 150;
+                    } else {
+                        StatusAtualization = 0;
+                    }
+
+                    if (xml_textImport.includes('deletable="false" movable="false"') == true && StatusAtualization == 150) {
+                        Swal.fire({
+                            icon: 'warning',
+                            title: language.ALERT_CODE_OLD_VERSION.toString(),
+                            html: language.ALERT_CODE_UPDATE_CODE_PROCCESS.toString(),
+                            timer: 3000,
+                            timerProgressBar: true,
+                            onBeforeOpen: () => {
+                                Swal.showLoading()
+                            },
+                            onClose: () => {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: language.ALERT_CODE_UPDATE_CODE_CANCEL.toString(),
+                                    html: language.ALERT_AUTO_CLOSE.toString(),
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onBeforeOpen: () => {
+                                        Swal.showLoading()
+                                    },
+                                    onClose: () => {
+                                        window.close();
+                                    }
+                                }).then((result) => {
+                                    window.close();
+                                })
+                            }
+                        }).then((result) => {
+                            if (result.dismiss === Swal.DismissReason.timer) {
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: language.ALERT_CODE_UPDATE_CODE_SUCCESS.toString(),
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                })
+                                SalvarCodigo();
+                            }
+                        })
+                    } else if (xml_textImport.includes('deletable="false" movable="false"') == false && StatusAtualization == 150) {
+                        Swal.fire({
+                            icon: 'warning',
+                            title: language.ALERT_CODE_OLD_VERSION.toString(),
+                            html: language.ALERT_CODE_UPDATE_CODE_PROCCESS.toString(),
+                            timer: 3000,
+                            timerProgressBar: true,
+                            onBeforeOpen: () => {
+                                Swal.showLoading()
+                            },
+                            onClose: () => {}
+                        }).then((result) => {
+                            let timerInterval
+                            Swal.fire({
+                                icon: 'error',
+                                title: language.ALERT_CODE_UPDATE_CODE_ERROR.toString(),
+                                html: language.ALERT_AUTO_CLOSE.toString(),
+                                timer: 3000,
+                                timerProgressBar: true,
+                                onBeforeOpen: () => {
+                                    Swal.showLoading()
+                                },
+                                onClose: () => {
+                                    clearInterval(timerInterval);
+                                    window.close();
+                                }
+                            }).then((result) => {
+                                window.close();
+                            })
+                        })
+                    }
+
+                    var xml = Blockly.Xml.textToDom(xml_textImport);
+                    Blockly.Xml.domToWorkspace(xml, workspace);
+                }
+            } catch (error) {
+                var basic = "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"start\" id=\"$XSSsR^Dz/jf|s:;]X3u\" deletable=\"false\" movable=\"false\" x=\"16\" y=\"9\"></block></xml>";
+                var xml = Blockly.Xml.textToDom(basic);
+                Blockly.Xml.domToWorkspace(xml, workspace);
+            }
+            try {} catch (error) {
+                let timerInterval
+                Swal.fire({
+                    title: language.TEXT_FATALERROR.toString(),
+                    html: language.ALERT_AUTO_CLOSE.toString(),
+                    timer: 3000,
+                    timerProgressBar: true,
+                    onBeforeOpen: () => {
+                        Swal.showLoading()
+                    },
+                    onClose: () => {
+                        clearInterval(timerInterval);
+                        window.close();
+                    }
+                }).then((result) => {
+                    window.close();
+                })
+            }
+        }, 1000);
+
+        try {
+
+            function PrintScreen() {
+                Blockly.downloadScreenshot(workspace);
+            }
+
+            function AtalhoImportCode() {
+                $('#ImportCode').trigger('click');
+            }
+
+
+            // document.getElementById('ImportCode').onchange = function() {
+
+            //     CodeImport();
+            // };
+
+            function CodeImport() {
+                console.log("Code Import ");
+                var inputFile = document.getElementById("ImportCode");
+
+                var file = inputFile.files[0];
+
+                var NameFile = file.name;
+                var DateLastFile = file.lastModifiedDate;
+
+                $(document).ready(function() {
+                    $('#ImportCode').val("");
+                });
+
+                var reader = new FileReader();
+                reader.onload = function(progressEvent) {
+                    var lines = this.result.split('\n');
+                    for (var line = 0; line < lines.length; line++) {
+                        console.log(lines[line]);
+                        var CodeImportContent = lines[line];
+
+                        var LanguageVerification = CodeImportContent.split('<');
+                        if (LanguageVerification[0] != "") {
+
+                            var LanguageCode = LanguageVerification[0];
+                            var LC = LanguageCode.length;
+                            var LanguageCodeSistema = localStorage.getItem("CodeLang");
+
+                            if (LanguageCode == LanguageCodeSistema) {
+                                //Liberar por conta do programa com o mesmo nome
+
+                                var CodeImportValid = CodeImportContent.substr(LC);
+
+                                if (lines[line] == "" || lines[line] == null) {
+                                    let timerInterval
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: language.ALERT_CODE_IMPORT_ERROR.toString(),
+                                        html: language.ALERT_CODE_IMPORT_EMPTY.toString(),
+                                        timer: 3000,
+                                        timerProgressBar: true,
+                                        onBeforeOpen: () => {
+                                            Swal.showLoading()
+                                        },
+                                        onClose: () => {}
+                                    })
+                                } else {
+                                    const swalWithBootstrapButtons = Swal.mixin({})
+
+                                    swalWithBootstrapButtons.fire({
+                                        title: language.ALERT_CODE_IMPORT.toString(),
+                                        text: language.ALERT_CODE_IMPORT_WARNING.toString(),
+                                        icon: 'warning',
+                                        showCancelButton: true,
+                                        confirmButtonText: language.TEXT_CONTINUE.toString(),
+                                        cancelButtonText: language.TEXT_CANCEL.toString(),
+                                        reverseButtons: true
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+                                            swalWithBootstrapButtons.fire(
+                                                language.TEXT_SUCCESS.toString(),
+                                                language.TEXT_CODE.toString() + " " + CodeName + " " + language.ALERT_CODE_IMPORT_SUCCESS.toString(),
+                                                'success'
+                                            )
+
+                                            Blockly.mainWorkspace.clear();
+
+                                            var xml = Blockly.Xml.textToDom(CodeImportValid);
+                                            Blockly.Xml.domToWorkspace(xml, workspace);
+
+                                            $(document).ready(function() {
+                                                $('#ImportCode').val("");
+                                            });
+
+                                            setTimeout(() => {
+                                                SalvarCodigo();
+                                            }, 1000);
+
+                                        } else if (
+                                            /* Read more about handling dismissals below */
+                                            result.dismiss === Swal.DismissReason.cancel
+                                        ) {
+                                            swalWithBootstrapButtons.fire(
+                                                language.ALERT_CODE_IMPORT_CANCEL.toString(),
+                                                language.ALERT_CODE_IMPORT_CANCEL_SUCCESS.toString(),
+                                                'success'
+                                            )
+                                        }
+                                    })
+                                }
+
+                            } else {
+                                //Mover para erro por conta da linguagem do programa 
+                                let timerInterval
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: language.ALERT_CODE_IMPORT_ERROR.toString(),
+                                    html: language.ALERT_CODE_IMPORT_LANGUAGE.toString(),
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onBeforeOpen: () => {
+                                        Swal.showLoading()
+                                    },
+                                    onClose: () => {}
+                                })
+                            }
+
+                        } else {
+                            if (LanguageCode == "pt_BR") {
+                                //Liberar por conta do programa com o mesmo nome
+
+                                var CodeImportValid = CodeImportContent.substr(LC);
+
+                                if (lines[line] == "" || lines[line] == null) {
+                                    let timerInterval
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: language.ALERT_CODE_IMPORT_ERROR.toString(),
+                                        html: language.ALERT_CODE_IMPORT_EMPTY.toString(),
+                                        timer: 3000,
+                                        timerProgressBar: true,
+                                        onBeforeOpen: () => {
+                                            Swal.showLoading()
+                                        },
+                                        onClose: () => {}
+                                    })
+                                } else {
+                                    const swalWithBootstrapButtons = Swal.mixin({})
+
+                                    swalWithBootstrapButtons.fire({
+                                        title: language.ALERT_CODE_IMPORT.toString(),
+                                        text: language.ALERT_CODE_IMPORT_WARNING.toString(),
+                                        icon: 'warning',
+                                        showCancelButton: true,
+                                        confirmButtonText: language.TEXT_CONTINUE.toString(),
+                                        cancelButtonText: language.TEXT_CANCEL.toString(),
+                                        reverseButtons: true
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+                                            swalWithBootstrapButtons.fire(
+                                                language.TEXT_SUCCESS.toString(),
+                                                language.TEXT_CODE.toString() + " " + CodeName + " " + language.ALERT_CODE_IMPORT_SUCCESS.toString(),
+                                                'success'
+                                            )
+
+                                            Blockly.mainWorkspace.clear();
+
+                                            var xml = Blockly.Xml.textToDom(CodeImportValid);
+                                            Blockly.Xml.domToWorkspace(xml, workspace);
+
+                                            $(document).ready(function() {
+                                                $('#ImportCode').val("");
+                                            });
+
+                                            setTimeout(() => {
+                                                SalvarCodigo();
+                                            }, 1000);
+
+                                        } else if (
+                                            /* Read more about handling dismissals below */
+                                            result.dismiss === Swal.DismissReason.cancel
+                                        ) {
+                                            swalWithBootstrapButtons.fire(
+                                                language.ALERT_CODE_IMPORT_CANCEL.toString(),
+                                                language.ALERT_CODE_IMPORT_CANCEL_SUCCESS.toString(),
+                                                'success'
+                                            )
+                                        }
+                                    })
+                                }
+
+                            } else {
+                                //Mover para erro por conta da linguagem do programa 
+                                let timerInterval
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: language.ALERT_CODE_IMPORT_ERROR.toString(),
+                                    html: language.ALERT_CODE_IMPORT_LANGUAGE.toString(),
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onBeforeOpen: () => {
+                                        Swal.showLoading()
+                                    },
+                                    onClose: () => {}
+                                })
+                            }
+                        }
+
+                    }
+                };
+                reader.readAsText(file);
+
+            }
+
+        } catch (error) {
+            let timerInterval
+            Swal.fire({
+                title: language.TEXT_FATALERROR.toString(),
+                html: language.ALERT_AUTO_CLOSE.toString(),
+                timer: 3000,
+                timerProgressBar: true,
+                onBeforeOpen: () => {
+                    Swal.showLoading()
+                },
+                onClose: () => {
+                    clearInterval(timerInterval);
+                    window.close();
+                }
+            }).then((result) => {
+                window.close();
+            })
+        }
+
+        var chechError = 0;
+        var xml_text = "";
+        var code = "";
+        var StatusActiveRV = false;
+        var XmlTextImportOld = "";
+        try {
+
+            function myUpdateFunction(event) {
+                Blockly.JavaScript.addReservedWords('code');
+                code = Blockly.JavaScript.workspaceToCode(workspace);
+                var xml = Blockly.Xml.workspaceToDom(workspace);
+                xml_text = Blockly.Xml.domToText(xml);
+                if (code.substring(0, 9) == "undefined") {
+                    code = code.substring(9, code.length);
+                }
+                console.log(code);
+                xml_textImport = localStorage.getItem("codeImportXMl");
+                XmlTextImportOld = xml_textImport;
+                AtualizarRV(ActiveRVLinguagem);
+            }
+
+            function ActiveRVSelectLinguagem() {
+                switch (ActiveRVTrocarLinguagem) {
+                    case 1:
+                        ActiveRVLinguagem = "r-educ";
+                        AtualizarRV(ActiveRVLinguagem);
+                        break;
+
+                    case 2:
+                        ActiveRVLinguagem = "xmlAtual"
+                        AtualizarRV(ActiveRVLinguagem);
+                        break;
+
+                    case 3:
+                        ActiveRVLinguagem = "xmlImport"
+                        AtualizarRV(ActiveRVLinguagem);
+                        break;
+
+                    case 4:
+                        ActiveRVLinguagem = "All"
+                        AtualizarRV(ActiveRVLinguagem);
+                        break;
+
+                    default:
+                        ActiveRVLinguagem = "r-educ";
+                        AtualizarRV(ActiveRVLinguagem);
+                        break;
+                }
+
+            }
+
+            function ActiveRV() {
+                switch (StatusActiveRV) {
+                    case false:
+                        document.getElementById("textarea").style.display = "block";
+                        StatusActiveRV = true;
+                        AtualizarRV(ActiveRVLinguagem)
+                        break;
+
+                    default:
+                        document.getElementById("textarea").style.display = "none";
+                        StatusActiveRV = false;
+                        break;
+                }
+            }
+
+            function AtualizarRV(params) {
+                switch (params) {
+                    case "r-educ":
+                        if (StatusActiveRV == true) {
+                            document.getElementById('textarea').value = "Código R-Educ => \n" + code;
+                        }
+                        break;
+
+                    case "xmlAtual":
+                        if (StatusActiveRV == true) {
+                            document.getElementById('textarea').value = "Código Xml Atual => \n" + xml_text;
+                        }
+                        break;
+
+                    case "xmlImport":
+                        if (StatusActiveRV == true) {
+                            document.getElementById('textarea').value = "Código Xml Importado => \n" + XmlTextImportOld;
+                        }
+                        break;
+
+                    case "All":
+                        if (StatusActiveRV == true) {
+                            document.getElementById('textarea').value = "Código R-Educ => \n" + code +
+                                "\n Código Xml Atual => \n" + xml_text +
+                                "\n Código Xml Importado => \n" + XmlTextImportOld;
+                        }
+                        break;
+
+
+                    default:
+                        if (StatusActiveRV == true) {
+                            document.getElementById('textarea').value = "Código R-Educ => \n" + code;
+                        }
+                        break;
+                }
+
+            }
+
+            workspace.addChangeListener(myUpdateFunction);
+
+            function ExportCode() {
+                var LanguageCodeSistema = localStorage.getItem("CodeLang");
+                xml_text = LanguageCodeSistema + xml_text;
+
+                let blob = new Blob([xml_text], {
+                    type: "text/plain; charset=utf-8"
+                });
+
+                saveAs(blob, CodeName + ".sboticsB");
+            }
+
+            function SalvarCodigo() {
+                console.log("Salvando programa!")
+                TokenUser = localStorage.getItem("TokenUser");
+                CodeName = localStorage.getItem("CodeName");
+                idPrograma = localStorage.getItem("CodeId");
+
+                if ((TokenUser == "") || (TokenUser == null)) {
+                    chechError = 1;
+                }
+
+                if (CodeName == "" || CodeName == null) {
+                    chechError = 1;
+                }
+
+                if (idPrograma == "" || idPrograma == null) {
+                    chechError = 1;
+                }
+
+                if (code == "" || code == null) {
+                    chechError = 55;
+                }
+
+                if (xml_text == "" || xml_text == null) {
+                    chechError = 55;
+                }
+
+                if (chechError == 0) {
+                    var xmlhttp = new XMLHttpRequest(); // new HttpRequest instance
+                    var theUrl = "http://weduc.natalnet.br/api/programs/" + idPrograma;
+                    xmlhttp.open("PUT", theUrl);
+                    xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8;");
+                    xmlhttp.setRequestHeader("Authorization", "Bearer " + TokenUser);
+
+                    xmlhttp.onreadystatechange = function() {
+                        if (this.readyState === 4) {
+                            console.log('TokenUser: ', TokenUser);
+                            console.log('CodeName: ', CodeName);
+                            console.log('idPrograma: ', idPrograma);
+                            console.log('code: ', code);
+                            console.log('xml_text: ', xml_text);
+                            console.log('Status:', this.status);
+                            console.log('Headers:', this.getAllResponseHeaders());
+                            console.log('Body:', this.responseText);
+                            if (this.status === 204) {
+                                const Toast = Swal.mixin({
+                                    toast: true,
+                                    position: 'center',
+                                    showConfirmButton: false,
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onOpen: (function(toast) {
+                                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                    })
+                                })
+
+                                Toast.fire({
+                                    icon: 'success',
+                                    title: language.ALERT_CODE_SAVE_SUCCESS.toString()
+                                })
+                            } else {
+                                const Toast = Swal.mixin({
+                                    toast: true,
+                                    position: 'center',
+                                    showConfirmButton: false,
+                                    timer: 3000,
+                                    timerProgressBar: true,
+                                    onOpen: (function(toast) {
+                                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                    })
+                                })
+
+                                Toast.fire({
+                                    icon: 'error',
+                                    title: language.ALERT_CODE_SAVE_ERROR.toString()
+                                })
+                                statusInternetVerification();
+                            }
+                        }
+                    };
+
+                    xmlhttp.send(JSON.stringify({
+                        "name": CodeName,
+                        "reduc_code": code,
+                        "blockly_code": xml_text
+                    }));
+                } else if (chechError == 55) {
+                    const Toast = Swal.mixin({
+                        toast: true,
+                        position: 'center',
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: true,
+                        onOpen: (function(toast) {
+                            toast.addEventListener('mouseenter', Swal.stopTimer)
+                            toast.addEventListener('mouseleave', Swal.resumeTimer)
+                        })
+                    })
+
+                    Toast.fire({
+                        icon: 'warning',
+                        title: language.ALERT_CODE_SAVE_EMPTY.toString()
+                    })
+                } else {
+                    let timerInterval
+                    Swal.fire({
+                        title: language.ALERT_CODE_SAVE_ERROR.toString(),
+                        html: language.ALERT_AUTO_CLOSE.toString(),
+                        timer: 3000,
+                        timerProgressBar: true,
+                        onBeforeOpen: () => {
+                            Swal.showLoading()
+                        },
+                        onClose: () => {
+                            clearInterval(timerInterval);
+                            window.close();
+                        }
+                    }).then((result) => {
+                        window.close();
+                    })
+                }
+                chechError = 0;
+            }
+        } catch (error) {
+            let timerInterval
+            Swal.fire({
+                title: language.TEXT_FATALERROR.toString(),
+                html: language.ALERT_AUTO_CLOSE.toString(),
+                timer: 3000,
+                timerProgressBar: true,
+                onBeforeOpen: () => {
+                    Swal.showLoading()
+                },
+                onClose: () => {
+                    clearInterval(timerInterval);
+                    window.close();
+                }
+            }).then((result) => {
+                window.close();
+            })
+        }
+    </script>
+</body>
+
+</html>
