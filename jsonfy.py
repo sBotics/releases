@@ -6,7 +6,7 @@ datag = {
     "download_link": "http://weduc.natalnet.br/sbotics",
     "data": []
 }
-token = {"Authorization": "token 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"}
+token = {"Authorization": "token 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"}
 
 
 def WalkTree(data):
