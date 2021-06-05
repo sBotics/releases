@@ -25,8 +25,8 @@
       "path": "MonoBleedingEdge/etc/mono/2.0/Browsers/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
-      "size": 1605,
-      "last_updated_at": "2020-07-19T21:48:10Z",
+      "size": 1586,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -70,8 +70,8 @@
       "path": "MonoBleedingEdge/etc/mono/4.0/Browsers/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
-      "size": 1605,
-      "last_updated_at": "2020-07-19T21:48:10Z",
+      "size": 1586,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -115,8 +115,8 @@
       "path": "MonoBleedingEdge/etc/mono/4.5/Browsers/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
-      "size": 1605,
-      "last_updated_at": "2020-07-19T21:48:10Z",
+      "size": 1586,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -219,12 +219,30 @@
       "format": "simple"
     },
     {
-      "name": "Assembly-CSharp-firstpass.dll",
+      "name": "DiscordSDK.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Assembly-CSharp-firstpass.dll",
-      "size": 492544,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/DiscordSDK.dll",
+      "size": 90624,
+      "last_updated_at": "2021-06-05T04:12:20Z",
+      "format": "simple"
+    },
+    {
+      "name": "Microsoft.CodeAnalysis.CSharp.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Microsoft.CodeAnalysis.CSharp.dll",
+      "size": 4887400,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "Microsoft.CodeAnalysis.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Microsoft.CodeAnalysis.dll",
+      "size": 2712424,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "simple"
     },
     {
@@ -264,15 +282,6 @@
       "format": "simple"
     },
     {
-      "name": "Newtonsoft.Json.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Newtonsoft.Json.dll",
-      "size": 404480,
-      "last_updated_at": "2020-08-18T02:19:07Z",
-      "format": "simple"
-    },
-    {
       "name": "Novell.Directory.Ldap.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
@@ -291,6 +300,69 @@
       "format": "simple"
     },
     {
+      "name": "RoslynCSharp.Compiler.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/RoslynCSharp.Compiler.dll",
+      "size": 25600,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "RoslynCSharp.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/RoslynCSharp.dll",
+      "size": 67072,
+      "last_updated_at": "2021-06-05T04:12:20Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.AppContext.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.AppContext.dll",
+      "size": 20168,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Collections.Concurrent.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Collections.Concurrent.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Collections.Immutable.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Collections.Immutable.dll",
+      "size": 358536,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Collections.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Collections.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.ComponentModel.Composition.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.ComponentModel.Composition.dll",
+      "size": 256512,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
       "name": "System.ComponentModel.DataAnnotations.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
@@ -306,6 +378,15 @@
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Configuration.dll",
       "size": 124928,
       "last_updated_at": "2020-07-19T21:48:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Console.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Console.dll",
+      "size": 34496,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "simple"
     },
     {
@@ -333,6 +414,42 @@
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Design.dll",
       "size": 282112,
       "last_updated_at": "2020-07-19T21:48:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Diagnostics.Debug.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Diagnostics.Debug.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Diagnostics.FileVersionInfo.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Diagnostics.FileVersionInfo.dll",
+      "size": 23464,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Diagnostics.StackTrace.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Diagnostics.StackTrace.dll",
+      "size": 23288,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Diagnostics.Tools.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Diagnostics.Tools.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "simple"
     },
     {
@@ -372,12 +489,147 @@
       "format": "simple"
     },
     {
+      "name": "System.Globalization.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Globalization.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.Compression.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.IO.Compression.dll",
+      "size": 98816,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.FileSystem.Primitives.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.IO.FileSystem.Primitives.dll",
+      "size": 22784,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.FileSystem.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.IO.FileSystem.dll",
+      "size": 22744,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.IO.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.IO.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Linq.Expressions.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Linq.Expressions.dll",
+      "size": 6656,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Linq.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Linq.dll",
+      "size": 4096,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
       "name": "System.Numerics.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Numerics.dll",
       "size": 114176,
       "last_updated_at": "2020-07-19T21:48:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.Extensions.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Reflection.Extensions.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.Metadata.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Reflection.Metadata.dll",
+      "size": 584848,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.Primitives.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Reflection.Primitives.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Reflection.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Reflection.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Resources.ResourceManager.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Resources.ResourceManager.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Runtime.Extensions.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Runtime.Extensions.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Runtime.InteropServices.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Runtime.InteropServices.dll",
+      "size": 7680,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Runtime.Numerics.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Runtime.Numerics.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "simple"
     },
     {
@@ -399,6 +651,51 @@
       "format": "simple"
     },
     {
+      "name": "System.Runtime.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Runtime.dll",
+      "size": 12800,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.Algorithms.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Security.Cryptography.Algorithms.dll",
+      "size": 39872,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.Encoding.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Security.Cryptography.Encoding.dll",
+      "size": 23480,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.Primitives.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Security.Cryptography.Primitives.dll",
+      "size": 22816,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Security.Cryptography.X509Certificates.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Security.Cryptography.X509Certificates.dll",
+      "size": 38872,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
       "name": "System.Security.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
@@ -417,12 +714,93 @@
       "format": "simple"
     },
     {
+      "name": "System.Text.Encoding.CodePages.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Text.Encoding.CodePages.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Text.Encoding.Extensions.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Text.Encoding.Extensions.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Text.Encoding.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Text.Encoding.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Tasks.Extensions.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Threading.Tasks.Extensions.dll",
+      "size": 25864,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Tasks.Parallel.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Threading.Tasks.Parallel.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Tasks.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Threading.Tasks.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.Thread.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Threading.Thread.dll",
+      "size": 22240,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Threading.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Threading.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
       "name": "System.Transactions.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Transactions.dll",
       "size": 34304,
       "last_updated_at": "2020-07-19T21:48:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.ValueTuple.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.ValueTuple.dll",
+      "size": 4608,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "simple"
     },
     {
@@ -471,6 +849,51 @@
       "format": "simple"
     },
     {
+      "name": "System.Xml.ReaderWriter.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Xml.ReaderWriter.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XDocument.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Xml.XDocument.dll",
+      "size": 5120,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XPath.XDocument.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Xml.XPath.XDocument.dll",
+      "size": 25320,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XPath.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Xml.XPath.dll",
+      "size": 22720,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "System.Xml.XmlDocument.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/System.Xml.XmlDocument.dll",
+      "size": 23256,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
       "name": "System.Xml.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
@@ -489,12 +912,48 @@
       "format": "simple"
     },
     {
+      "name": "Trivial.CodeSecurity.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Trivial.CodeSecurity.dll",
+      "size": 43008,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "Trivial.Mono.Cecil.Mdb.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Trivial.Mono.Cecil.Mdb.dll",
+      "size": 43520,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "Trivial.Mono.Cecil.Pdb.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Trivial.Mono.Cecil.Pdb.dll",
+      "size": 86528,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
+      "name": "Trivial.Mono.Cecil.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Trivial.Mono.Cecil.dll",
+      "size": 345600,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "simple"
+    },
+    {
       "name": "Unity.Analytics.DataPrivacy.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.Analytics.DataPrivacy.dll",
       "size": 7680,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -516,12 +975,48 @@
       "format": "simple"
     },
     {
+      "name": "Unity.EventManager.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.EventManager.dll",
+      "size": 5632,
+      "last_updated_at": "2021-06-05T04:12:20Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.IOBrowser.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.IOBrowser.dll",
+      "size": 15360,
+      "last_updated_at": "2021-06-05T04:12:20Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.JSONParser.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.JSONParser.dll",
+      "size": 29184,
+      "last_updated_at": "2021-06-05T04:12:20Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.NewtorkingAPI.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.NewtorkingAPI.dll",
+      "size": 29184,
+      "last_updated_at": "2021-06-05T04:12:20Z",
+      "format": "simple"
+    },
+    {
       "name": "Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "size": 4096,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -530,7 +1025,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
       "size": 175616,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -539,7 +1034,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -548,7 +1043,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -557,7 +1052,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
       "size": 215040,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -566,7 +1061,16 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
       "size": 3584,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
+      "format": "simple"
+    },
+    {
+      "name": "Unity.TextEditor.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.TextEditor.dll",
+      "size": 31744,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -575,7 +1079,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.TextMeshPro.dll",
       "size": 368128,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -584,7 +1088,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/Unity.Timeline.dll",
       "size": 109056,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -620,7 +1124,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/UnityEngine.Advertisements.dll",
       "size": 31744,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -809,7 +1313,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/UnityEngine.Monetization.dll",
       "size": 28672,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -863,7 +1367,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/UnityEngine.Purchasing.dll",
       "size": 27648,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -890,7 +1394,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/UnityEngine.SpatialTracking.dll",
       "size": 10240,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -998,7 +1502,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/UnityEngine.UI.dll",
       "size": 226304,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -1160,7 +1664,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
       "size": 20992,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -1187,16 +1691,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
       "size": 230400,
-      "last_updated_at": "2021-04-23T18:15:04Z",
-      "format": "simple"
-    },
-    {
-      "name": "mcs.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/mcs.dll",
-      "size": 1847296,
-      "last_updated_at": "2020-07-19T21:48:10Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -1206,6 +1701,15 @@
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/mscorlib.dll",
       "size": 4072960,
       "last_updated_at": "2021-04-01T05:56:54Z",
+      "format": "simple"
+    },
+    {
+      "name": "sBotics.dll",
+      "path": "sBotics_Data/Managed/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/Managed/sBotics.dll",
+      "size": 286720,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -1249,8 +1753,8 @@
       "path": "sBotics_Data/StreamingAssets/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/ColorTheme.json.zip",
-      "size": 866,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "size": 867,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "zip"
     },
     {
@@ -1258,8 +1762,53 @@
       "path": "sBotics_Data/StreamingAssets/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/KeyBinding.json.zip",
-      "size": 691,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "size": 832,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "zip"
+    },
+    {
+      "name": "C#-en.json.zip",
+      "path": "sBotics_Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/ProgrammingThemes/C%23-en.json.zip",
+      "size": 987,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "zip"
+    },
+    {
+      "name": "C#-pt_BR.json.zip",
+      "path": "sBotics_Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/ProgrammingThemes/C%23-pt_BR.json.zip",
+      "size": 1008,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "zip"
+    },
+    {
+      "name": "rEduc-en.json.zip",
+      "path": "sBotics_Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/ProgrammingThemes/rEduc-en.json.zip",
+      "size": 606,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "zip"
+    },
+    {
+      "name": "rEduc-pt_BR.json.zip",
+      "path": "sBotics_Data/StreamingAssets/ProgrammingThemes/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/ProgrammingThemes/rEduc-pt_BR.json.zip",
+      "size": 640,
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "zip"
+    },
+    {
+      "name": "Skybox.json.zip",
+      "path": "sBotics_Data/StreamingAssets/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/Skybox.json.zip",
+      "size": 202,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "zip"
     },
     {
@@ -1268,7 +1817,16 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/robots.png.zip",
       "size": 611521,
-      "last_updated_at": "2021-04-01T05:56:54Z",
+      "last_updated_at": "2021-06-02T03:21:10Z",
+      "format": "zip"
+    },
+    {
+      "name": "skybox.jpg.zip",
+      "path": "sBotics_Data/StreamingAssets/",
+      "type": "file",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/StreamingAssets/skybox.jpg.zip",
+      "size": 1329547,
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "zip"
     },
     {
@@ -1294,17 +1852,17 @@
       "path": "sBotics_Data/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/data.unity3d",
-      "size": 11123276,
-      "last_updated_at": "2021-04-23T18:15:04Z",
+      "size": 8275931,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
-      "name": "sharedassets2.resource",
+      "name": "sharedassets1.resource",
       "path": "sBotics_Data/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/sharedassets2.resource",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/W64/sBotics_Data/sharedassets1.resource",
       "size": 3872,
-      "last_updated_at": "2021-04-01T05:56:54Z",
+      "last_updated_at": "2021-06-02T03:21:10Z",
       "format": "simple"
     }
   ]

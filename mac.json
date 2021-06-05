@@ -8,7 +8,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Frameworks/UnityPlayer.dylib",
       "size": 26164964,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -17,7 +17,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Frameworks/libMonoPosixHelper.dylib",
       "size": 325496,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -35,7 +35,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Frameworks/libmonobdwgc-2.0.dylib",
       "size": 4657864,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -62,7 +62,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/MacOS/sBotics",
       "size": 8776,
-      "last_updated_at": "2021-04-05T19:09:42Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -70,8 +70,8 @@
       "path": "sBotics.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
-      "size": 1605,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "size": 1586,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -115,8 +115,8 @@
       "path": "sBotics.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
-      "size": 1605,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "size": 1586,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -160,8 +160,8 @@
       "path": "sBotics.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
-      "size": 1605,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "size": 1586,
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -238,47 +238,47 @@
     },
     {
       "name": "Info.plist",
-      "path": "sBotics.app/Contents/Plugins/StandaloneFileBrowser.bundle/Contents/",
+      "path": "sBotics.app/Contents/PlugIns/StandaloneFileBrowser.bundle/Contents/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/PlugIns/StandaloneFileBrowser.bundle/Contents/Info.plist",
       "size": 1294,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
       "name": "StandaloneFileBrowser",
-      "path": "sBotics.app/Contents/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS/",
+      "path": "sBotics.app/Contents/PlugIns/StandaloneFileBrowser.bundle/Contents/MacOS/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS/StandaloneFileBrowser",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/PlugIns/StandaloneFileBrowser.bundle/Contents/MacOS/StandaloneFileBrowser",
       "size": 28672,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
       "name": "discord_game_sdk.bundle",
-      "path": "sBotics.app/Contents/Plugins/",
+      "path": "sBotics.app/Contents/PlugIns/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Plugins/discord_game_sdk.bundle",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/PlugIns/discord_game_sdk.bundle",
       "size": 4130000,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
       "name": "discord_game_sdk.dylib",
-      "path": "sBotics.app/Contents/Plugins/",
+      "path": "sBotics.app/Contents/PlugIns/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Plugins/discord_game_sdk.dylib",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/PlugIns/discord_game_sdk.dylib",
       "size": 4130000,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
       "name": "discord_game_sdk.so",
-      "path": "sBotics.app/Contents/Plugins/",
+      "path": "sBotics.app/Contents/PlugIns/",
       "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Plugins/discord_game_sdk.so",
+      "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/PlugIns/discord_game_sdk.so",
       "size": 7122200,
-      "last_updated_at": "2020-07-19T21:42:54Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
@@ -1277,7 +1277,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/sBoticsBuilds/master/mac/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.Purchasing.dll",
       "size": 27648,
-      "last_updated_at": "2021-06-05T02:04:46Z",
+      "last_updated_at": "2021-06-05T04:12:20Z",
       "format": "simple"
     },
     {
