@@ -1,0 +1,63 @@
+{
+    "delimiter_symbols": "( ) { } , !",
+    "groups": {
+        "symbol": {
+            "color": "#8be9fd",
+            "symbols": "+ - * / = < > == != <= >="
+        },
+        "number": {
+            "color": "#C8E8FF"
+        },
+        "comment": {
+            "color": "#4E5B80",
+            "line_comment": "#",
+            "block_comment_start": "",
+            "block_comment_end": ""
+        },
+        "string_literal": {
+            "color": "#ffb86c"
+        },
+        "keywords": [
+            {
+                "name": "AuxiliarySymbols",
+                "color": "#8be9fd",
+                "words": "e ou"
+            },
+            {
+                "name": "Important",
+                "color": "#47BC9F",
+                "words": "inicio fim [Primario]"
+            },
+            {
+                "name": "Keywords",
+                "color": "#CF7FC2",
+                "words": "se senao entao enquanto farei para passo de ate repita vezes teste caso outros tarefa"
+            },
+            {
+                "name": "AuxiliaryKeywords",
+                "color": "#579DD9",
+                "words": "numero texto booleano verdadeiro falso"
+            },
+            {
+                "name": "Movimentação",
+                "color": "#8AF187",
+                "words": ""
+            },
+            {
+                "name": "Leitura",
+                "color": "#fff344",
+                "words": ""
+            },
+            {
+                "name": "Escrita",
+                "color": "#C3E88D",
+                "words": ""
+            },
+            {
+                "name": "Outros",
+                "color": "#B46CEA",
+                "words": ""
+            }
+        ]
+    }
+}
