@@ -1,4 +1,5 @@
 {
+  "Teste de Sistema": "Olá Mundo"
   "forward": "W",
   "forward_alias": "UpArrow",
   "back": "S",
@@ -6,7 +7,7 @@
   "left": "A",
   "left_alias": "LeftArrow",
   "right": "D",
-  "right_alias": "RightArrow", 
+  "right_alias": "RightArrow",
   "reset": "R",
   "raise": "Z",
   "lower": "X",
