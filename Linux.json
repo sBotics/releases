@@ -1,5 +1,6 @@
 {
-  "version": "1",
+    "version": "1.6.1.1",
+  "force": "false",
   "download_link": "https://sbotics.weduc.natalnet.br",
   "data": [
     {
