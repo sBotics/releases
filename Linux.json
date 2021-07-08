@@ -1,51 +1,46 @@
 {
   "version": "1",
-  "download_link": "http://weduc.natalnet.br/sbotics",
+  "download_link": "https://sbotics.weduc.natalnet.br",
   "data": [
     {
       "name": "LinuxPlayer_s.debug",
       "path": "",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/LinuxPlayer_s.debug",
-      "size": 16064,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 4440,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityPlayer.so",
       "path": "",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/UnityPlayer.so",
-      "size": 33159912,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 31751976,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityPlayer_s.debug",
       "path": "",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/UnityPlayer_s.debug",
-      "size": 40905336,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 7516272,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "sBotics.x86_64",
       "path": "",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics.x86_64",
-      "size": 14744,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "Accessibility.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Accessibility.dll",
-      "size": 12288,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 6272,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "DiscordSDK.dll",
@@ -53,8 +48,9 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/DiscordSDK.dll",
       "size": 90624,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Microsoft.CodeAnalysis.CSharp.dll",
@@ -63,7 +59,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Microsoft.CodeAnalysis.CSharp.dll",
       "size": 4887400,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Microsoft.CodeAnalysis.dll",
@@ -72,16 +69,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Microsoft.CodeAnalysis.dll",
       "size": 2712424,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "Mono.Data.Sqlite.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Mono.Data.Sqlite.dll",
-      "size": 166912,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Mono.Posix.dll",
@@ -90,7 +79,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Mono.Posix.dll",
       "size": 212480,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Mono.Security.dll",
@@ -99,43 +89,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Mono.Security.dll",
       "size": 309248,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "Mono.WebBrowser.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Mono.WebBrowser.dll",
-      "size": 166912,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "Newtonsoft.Json.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Newtonsoft.Json.dll",
-      "size": 683008,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "Novell.Directory.Ldap.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Novell.Directory.Ldap.dll",
-      "size": 247296,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "Purchasing.Common.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Purchasing.Common.dll",
-      "size": 12288,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "RoslynCSharp.Compiler.dll",
@@ -144,16 +99,18 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/RoslynCSharp.Compiler.dll",
       "size": 25600,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "RoslynCSharp.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/RoslynCSharp.dll",
-      "size": 67584,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 67072,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.AppContext.dll",
@@ -162,7 +119,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.AppContext.dll",
       "size": 20168,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Collections.Concurrent.dll",
@@ -171,7 +129,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Collections.Concurrent.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Collections.Immutable.dll",
@@ -180,7 +139,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Collections.Immutable.dll",
       "size": 358536,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Collections.dll",
@@ -189,7 +149,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Collections.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.ComponentModel.Composition.dll",
@@ -198,16 +159,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.ComponentModel.Composition.dll",
       "size": 256512,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.ComponentModel.DataAnnotations.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.ComponentModel.DataAnnotations.dll",
-      "size": 84480,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Configuration.dll",
@@ -216,7 +169,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Configuration.dll",
       "size": 124928,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Console.dll",
@@ -225,7 +179,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Console.dll",
       "size": 34496,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Core.dll",
@@ -234,25 +189,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Core.dll",
       "size": 1046016,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Data.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Data.dll",
-      "size": 2081280,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Design.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Design.dll",
-      "size": 282112,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Diagnostics.Debug.dll",
@@ -261,7 +199,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Diagnostics.Debug.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Diagnostics.FileVersionInfo.dll",
@@ -270,7 +209,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Diagnostics.FileVersionInfo.dll",
       "size": 23464,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Diagnostics.StackTrace.dll",
@@ -279,7 +219,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Diagnostics.StackTrace.dll",
       "size": 23288,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Diagnostics.Tools.dll",
@@ -288,52 +229,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Diagnostics.Tools.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.DirectoryServices.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.DirectoryServices.dll",
-      "size": 93184,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Drawing.Design.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Drawing.Design.dll",
-      "size": 29696,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Drawing.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Drawing.dll",
-      "size": 481280,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.EnterpriseServices.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.EnterpriseServices.dll",
-      "size": 44544,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Globalization.Extensions.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Globalization.Extensions.dll",
-      "size": 6144,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Globalization.dll",
@@ -342,16 +239,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Globalization.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.IO.Compression.FileSystem.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.IO.Compression.FileSystem.dll",
-      "size": 23040,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.IO.Compression.dll",
@@ -360,7 +249,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.IO.Compression.dll",
       "size": 98816,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.IO.FileSystem.Primitives.dll",
@@ -369,7 +259,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.IO.FileSystem.Primitives.dll",
       "size": 22784,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.IO.FileSystem.dll",
@@ -378,7 +269,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.IO.FileSystem.dll",
       "size": 22744,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.IO.dll",
@@ -387,7 +279,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.IO.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Linq.Expressions.dll",
@@ -396,7 +289,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Linq.Expressions.dll",
       "size": 6656,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Linq.dll",
@@ -405,16 +299,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Linq.dll",
       "size": 4096,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Net.Http.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Net.Http.dll",
-      "size": 114688,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Numerics.dll",
@@ -423,7 +309,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Numerics.dll",
       "size": 114176,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Reflection.Extensions.dll",
@@ -432,7 +319,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Reflection.Extensions.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Reflection.Metadata.dll",
@@ -441,7 +329,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Reflection.Metadata.dll",
       "size": 584848,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Reflection.Primitives.dll",
@@ -450,7 +339,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Reflection.Primitives.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Reflection.dll",
@@ -459,7 +349,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Reflection.dll",
       "size": 5632,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Resources.ResourceManager.dll",
@@ -468,7 +359,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Resources.ResourceManager.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Runtime.Extensions.dll",
@@ -477,7 +369,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Runtime.Extensions.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Runtime.InteropServices.dll",
@@ -486,7 +379,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Runtime.InteropServices.dll",
       "size": 7680,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Runtime.Numerics.dll",
@@ -495,25 +389,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Runtime.Numerics.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Runtime.Serialization.Formatters.Soap.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll",
-      "size": 38400,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Runtime.Serialization.Xml.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Runtime.Serialization.Xml.dll",
-      "size": 7168,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Runtime.Serialization.dll",
@@ -522,7 +399,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Runtime.Serialization.dll",
       "size": 928256,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Runtime.dll",
@@ -531,7 +409,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Runtime.dll",
       "size": 12800,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Security.Cryptography.Algorithms.dll",
@@ -540,7 +419,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Security.Cryptography.Algorithms.dll",
       "size": 39872,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Security.Cryptography.Encoding.dll",
@@ -549,7 +429,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Security.Cryptography.Encoding.dll",
       "size": 23480,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Security.Cryptography.Primitives.dll",
@@ -558,7 +439,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Security.Cryptography.Primitives.dll",
       "size": 22816,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Security.Cryptography.X509Certificates.dll",
@@ -567,7 +449,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Security.Cryptography.X509Certificates.dll",
       "size": 38872,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Security.dll",
@@ -576,7 +459,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Security.dll",
       "size": 184320,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.ServiceModel.Internals.dll",
@@ -585,7 +469,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.ServiceModel.Internals.dll",
       "size": 214528,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Text.Encoding.CodePages.dll",
@@ -594,7 +479,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Text.Encoding.CodePages.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Text.Encoding.Extensions.dll",
@@ -603,7 +489,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Text.Encoding.Extensions.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Text.Encoding.dll",
@@ -612,7 +499,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Text.Encoding.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Threading.Tasks.Extensions.dll",
@@ -621,7 +509,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Threading.Tasks.Extensions.dll",
       "size": 25864,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Threading.Tasks.Parallel.dll",
@@ -630,7 +519,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Threading.Tasks.Parallel.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Threading.Tasks.dll",
@@ -639,7 +529,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Threading.Tasks.dll",
       "size": 5632,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Threading.Thread.dll",
@@ -648,7 +539,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Threading.Thread.dll",
       "size": 22240,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Threading.dll",
@@ -657,16 +549,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Threading.dll",
       "size": 5632,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Transactions.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Transactions.dll",
-      "size": 34304,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.ValueTuple.dll",
@@ -675,43 +559,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.ValueTuple.dll",
       "size": 4608,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Web.ApplicationServices.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Web.ApplicationServices.dll",
-      "size": 33792,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Web.Services.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Web.Services.dll",
-      "size": 727040,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Web.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Web.dll",
-      "size": 3154944,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "System.Windows.Forms.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Windows.Forms.dll",
-      "size": 2879488,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Xml.Linq.dll",
@@ -720,7 +569,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Xml.Linq.dll",
       "size": 119296,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Xml.ReaderWriter.dll",
@@ -729,7 +579,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Xml.ReaderWriter.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Xml.XDocument.dll",
@@ -738,7 +589,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Xml.XDocument.dll",
       "size": 5120,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Xml.XPath.XDocument.dll",
@@ -747,7 +599,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Xml.XPath.XDocument.dll",
       "size": 25320,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Xml.XPath.dll",
@@ -756,7 +609,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Xml.XPath.dll",
       "size": 22720,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Xml.XmlDocument.dll",
@@ -765,7 +619,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Xml.XmlDocument.dll",
       "size": 23256,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.Xml.dll",
@@ -774,16 +629,18 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.Xml.dll",
       "size": 3137536,
       "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "System.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/System.dll",
-      "size": 2750976,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 2715136,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Trivial.CodeSecurity.dll",
@@ -792,7 +649,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Trivial.CodeSecurity.dll",
       "size": 43008,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Trivial.Mono.Cecil.Mdb.dll",
@@ -801,7 +659,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Trivial.Mono.Cecil.Mdb.dll",
       "size": 43520,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Trivial.Mono.Cecil.Pdb.dll",
@@ -810,7 +669,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Trivial.Mono.Cecil.Pdb.dll",
       "size": 86528,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Trivial.Mono.Cecil.dll",
@@ -819,43 +679,18 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Trivial.Mono.Cecil.dll",
       "size": 345600,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
-    },
-    {
-      "name": "Unity.Analytics.DataPrivacy.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.Analytics.DataPrivacy.dll",
-      "size": 7680,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "Unity.Analytics.StandardEvents.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.Analytics.StandardEvents.dll",
-      "size": 32256,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "Unity.Analytics.Tracker.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.Analytics.Tracker.dll",
-      "size": 18944,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.EventManager.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.EventManager.dll",
-      "size": 5120,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 5632,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.IOBrowser.dll",
@@ -863,8 +698,9 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.IOBrowser.dll",
       "size": 15360,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.JSONParser.dll",
@@ -872,17 +708,9 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.JSONParser.dll",
       "size": 29184,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "Unity.Mathematics.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.Mathematics.dll",
-      "size": 716288,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.NewtorkingAPI.dll",
@@ -890,8 +718,9 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.NewtorkingAPI.dll",
       "size": 29184,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -899,17 +728,19 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "size": 4096,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.RenderPipelines.Core.Runtime.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
-      "size": 216576,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 175616,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.RenderPipelines.Core.ShaderLibrary.dll",
@@ -917,8 +748,9 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
@@ -926,17 +758,19 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.RenderPipelines.Universal.Runtime.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
-      "size": 307712,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 215040,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.RenderPipelines.Universal.Shaders.dll",
@@ -944,8 +778,9 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.TextEditor.dll",
@@ -953,89 +788,89 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.TextEditor.dll",
       "size": 31744,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.TextMeshPro.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.TextMeshPro.dll",
-      "size": 370176,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 369664,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Unity.Timeline.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.Timeline.dll",
-      "size": 111616,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 109056,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.AIModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.AIModule.dll",
-      "size": 45568,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 44544,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.AccessibilityModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.AccessibilityModule.dll",
-      "size": 12800,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Advertisements.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Advertisements.dll",
-      "size": 34816,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 12288,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.AndroidJNIModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.AndroidJNIModule.dll",
-      "size": 60928,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 57344,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.AnimationModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.AnimationModule.dll",
-      "size": 150016,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 145920,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.AssetBundleModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.AssetBundleModule.dll",
-      "size": 22016,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 21504,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.AudioModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.AudioModule.dll",
-      "size": 58368,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 57344,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.ClothModule.dll",
@@ -1043,125 +878,129 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.ClothModule.dll",
       "size": 15360,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.ClusterInputModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.ClusterInputModule.dll",
-      "size": 10752,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 10240,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.ClusterRendererModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.ClusterRendererModule.dll",
-      "size": 11264,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9216,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.CoreModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.CoreModule.dll",
-      "size": 1144320,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 1008128,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.CrashReportingModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.CrashReportingModule.dll",
-      "size": 10240,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9728,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.DSPGraphModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.DSPGraphModule.dll",
-      "size": 18432,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 17920,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.DirectorModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.DirectorModule.dll",
-      "size": 13824,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.GIModule.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.GIModule.dll",
-      "size": 9216,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 13312,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.GameCenterModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.GameCenterModule.dll",
-      "size": 28160,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 27136,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.GridModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.GridModule.dll",
-      "size": 14336,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 13824,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.HotReloadModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.HotReloadModule.dll",
-      "size": 9216,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 8704,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.IMGUIModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.IMGUIModule.dll",
-      "size": 159744,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 156160,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.ImageConversionModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.ImageConversionModule.dll",
-      "size": 13312,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 12800,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.InputLegacyModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.InputLegacyModule.dll",
-      "size": 26112,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 25600,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.InputModule.dll",
@@ -1169,224 +1008,119 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.InputModule.dll",
       "size": 12288,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.JSONSerializeModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.JSONSerializeModule.dll",
-      "size": 11264,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 10752,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.LocalizationModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.LocalizationModule.dll",
-      "size": 10240,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Monetization.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Monetization.dll",
-      "size": 28672,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9728,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.ParticleSystemModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.ParticleSystemModule.dll",
-      "size": 142336,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 135168,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.PerformanceReportingModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
-      "size": 9728,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9216,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.Physics2DModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Physics2DModule.dll",
-      "size": 107008,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 105984,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.PhysicsModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.PhysicsModule.dll",
-      "size": 96768,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 87040,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.ProfilerModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.ProfilerModule.dll",
-      "size": 9216,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.AppleCore.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.AppleCore.dll",
-      "size": 4608,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.AppleMacosStub.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll",
-      "size": 4608,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.AppleStub.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.AppleStub.dll",
-      "size": 4608,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.Codeless.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.Codeless.dll",
-      "size": 13312,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.SecurityCore.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll",
-      "size": 7168,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.SecurityStub.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll",
-      "size": 5632,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.Stores.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.Stores.dll",
-      "size": 162816,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.WinRTCore.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll",
-      "size": 6144,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.WinRTStub.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll",
-      "size": 3584,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.Purchasing.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.Purchasing.dll",
-      "size": 28160,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
-      "size": 9216,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 8704,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.ScreenCaptureModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
-      "size": 10240,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9728,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.SharedInternalsModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.SharedInternalsModule.dll",
-      "size": 21504,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.SpatialTracking.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.SpatialTracking.dll",
-      "size": 10240,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 19456,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.SpriteMaskModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.SpriteMaskModule.dll",
-      "size": 10752,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 10240,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.SpriteShapeModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.SpriteShapeModule.dll",
-      "size": 14336,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 13824,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.StreamingModule.dll",
@@ -1394,8 +1128,9 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.StreamingModule.dll",
       "size": 9728,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.SubstanceModule.dll",
@@ -1403,134 +1138,139 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.SubstanceModule.dll",
       "size": 13824,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.SubsystemsModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.SubsystemsModule.dll",
-      "size": 24064,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 16896,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.TLSModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.TLSModule.dll",
-      "size": 9216,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 8704,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.TerrainModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.TerrainModule.dll",
-      "size": 81920,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 80896,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.TerrainPhysicsModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
-      "size": 10240,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9728,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.TextCoreModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.TextCoreModule.dll",
-      "size": 186880,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 186368,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.TextRenderingModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.TextRenderingModule.dll",
-      "size": 28160,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 27648,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.TilemapModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.TilemapModule.dll",
-      "size": 26624,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 25088,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UI.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UI.dll",
-      "size": 230400,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 226304,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UIElementsModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UIElementsModule.dll",
-      "size": 797696,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.UIElementsNativeModule.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
-      "size": 47616,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 728576,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UIModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UIModule.dll",
-      "size": 24064,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 23552,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UNETModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UNETModule.dll",
-      "size": 78848,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 77312,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UmbraModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UmbraModule.dll",
-      "size": 9216,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 8704,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityAnalyticsModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
-      "size": 33792,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 32768,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityConnectModule.dll",
@@ -1538,62 +1278,59 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityConnectModule.dll",
       "size": 10752,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.UnityCurlModule.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityCurlModule.dll",
-      "size": 10752,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityTestProtocolModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
-      "size": 9216,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 8704,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityWebRequestAssetBundleModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
-      "size": 12288,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 11776,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityWebRequestAudioModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
-      "size": 11776,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 11264,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityWebRequestModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-      "size": 44032,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 43008,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityWebRequestTextureModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
-      "size": 11264,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 10752,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1601,125 +1338,99 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
       "size": 20480,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.VFXModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.VFXModule.dll",
-      "size": 39936,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 38912,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.VRModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.VRModule.dll",
-      "size": 15360,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 34816,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.VehiclesModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.VehiclesModule.dll",
-      "size": 13312,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 12800,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.VideoModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.VideoModule.dll",
-      "size": 29696,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.VirtualTexturingModule.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
-      "size": 23552,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 29184,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.WindModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.WindModule.dll",
-      "size": 10240,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "UnityEngine.XR.LegacyInputHelpers.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll",
-      "size": 20992,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9728,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.XRModule.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.XRModule.dll",
-      "size": 55296,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 54272,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityEngine.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.dll",
-      "size": 91648,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "com.unity.multiplayer-hlapi.Runtime.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/com.unity.multiplayer-hlapi.Runtime.dll",
-      "size": 231936,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 84992,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "mscorlib.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/mscorlib.dll",
-      "size": 4073472,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "netstandard.dll",
-      "path": "sBotics_Data/Managed/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/netstandard.dll",
-      "size": 84992,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 4072960,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "sBotics.dll",
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/sBotics.dll",
-      "size": 292352,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 290816,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Compat.browser",
@@ -1728,7 +1439,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
       "size": 1605,
       "last_updated_at": "2021-06-08T13:17:05Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "DefaultWsdlHelpGenerator.aspx",
@@ -1737,7 +1449,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
       "size": 60575,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "machine.config",
@@ -1746,7 +1459,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/2.0/machine.config",
       "size": 29116,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "settings.map",
@@ -1755,7 +1469,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/2.0/settings.map",
       "size": 2622,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "web.config",
@@ -1764,7 +1479,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/2.0/web.config",
       "size": 11686,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Compat.browser",
@@ -1773,7 +1489,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
       "size": 1605,
       "last_updated_at": "2021-06-08T13:17:05Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "DefaultWsdlHelpGenerator.aspx",
@@ -1782,7 +1499,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
       "size": 60575,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "machine.config",
@@ -1791,7 +1509,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.0/machine.config",
       "size": 33648,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "settings.map",
@@ -1800,7 +1519,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.0/settings.map",
       "size": 2622,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "web.config",
@@ -1809,7 +1529,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.0/web.config",
       "size": 18848,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Compat.browser",
@@ -1818,7 +1539,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
       "size": 1605,
       "last_updated_at": "2021-06-08T13:17:05Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "DefaultWsdlHelpGenerator.aspx",
@@ -1827,7 +1549,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
       "size": 60575,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "machine.config",
@@ -1836,7 +1559,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.5/machine.config",
       "size": 34106,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "settings.map",
@@ -1845,7 +1569,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.5/settings.map",
       "size": 2622,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "web.config",
@@ -1854,7 +1579,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/4.5/web.config",
       "size": 18857,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "browscap.ini",
@@ -1863,7 +1589,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/browscap.ini",
       "size": 311984,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "config",
@@ -1872,7 +1599,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/config",
       "size": 2771,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "config.xml",
@@ -1881,7 +1609,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml",
       "size": 25817,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "libMonoPosixHelper.so",
@@ -1889,17 +1618,19 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so",
       "size": 246928,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "libmonobdwgc-2.0.so",
       "path": "sBotics_Data/MonoBleedingEdge/x86_64/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so",
-      "size": 3553536,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 3549320,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "discord_game_sdk.so",
@@ -1908,7 +1639,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Plugins/discord_game_sdk.so",
       "size": 7122200,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "libStandaloneFileBrowser.so",
@@ -1917,7 +1649,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Plugins/libStandaloneFileBrowser.so",
       "size": 26984,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "UnityPlayer.png",
@@ -1926,34 +1659,18 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Resources/UnityPlayer.png",
       "size": 6026,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "unity default resources",
       "path": "sBotics_Data/Resources/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Resources/unity%20default%20resources",
-      "size": 4844752,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "RuntimeInitializeOnLoads.json",
-      "path": "sBotics_Data/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/RuntimeInitializeOnLoads.json",
-      "size": 787,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
-    },
-    {
-      "name": "ScriptingAssemblies.json",
-      "path": "sBotics_Data/",
-      "type": "file",
-      "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/ScriptingAssemblies.json",
-      "size": 4652,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 3837020,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "BlockEduc.AppImage",
@@ -1962,7 +1679,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/Addons/BlockEduc.AppImage",
       "size": 81142099,
       "last_updated_at": "2021-06-20T03:30:09Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Insert your addons here",
@@ -1971,7 +1689,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/Addons/Insert%20your%20addons%20here",
       "size": 0,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "ColorTheme.json",
@@ -1980,7 +1699,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/ColorTheme.json",
       "size": 2512,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "KeyBinding.json",
@@ -1989,7 +1709,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/KeyBinding.json",
       "size": 1931,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "C#-en.json",
@@ -1998,7 +1719,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/ProgrammingThemes/C%23-en.json",
       "size": 2195,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "C#-pt_BR.json",
@@ -2007,7 +1729,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/ProgrammingThemes/C%23-pt_BR.json",
       "size": 2207,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "rEduc-en.json",
@@ -2016,7 +1739,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/ProgrammingThemes/rEduc-en.json",
       "size": 1686,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "rEduc-pt_BR.json",
@@ -2025,7 +1749,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/ProgrammingThemes/rEduc-pt_BR.json",
       "size": 1712,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "Skybox.json",
@@ -2034,7 +1759,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/Skybox.json",
       "size": 48,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "robots.png",
@@ -2043,7 +1769,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/robots.png",
       "size": 627977,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "skybox.jpg",
@@ -2052,7 +1779,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/StreamingAssets/skybox.jpg",
       "size": 1339779,
       "last_updated_at": "2021-06-11T11:40:17Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "app.info",
@@ -2061,25 +1789,28 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/app.info",
       "size": 21,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "boot.config",
       "path": "sBotics_Data/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/boot.config",
-      "size": 49,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 113,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "data.unity3d",
       "path": "sBotics_Data/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/data.unity3d",
-      "size": 9470896,
-      "last_updated_at": "2021-07-07T04:01:48Z",
-      "format": "simple"
+      "size": 9061847,
+      "last_updated_at": "2021-07-08T00:42:03Z",
+      "format": "simple",
+      "force": "false"
     },
     {
       "name": "sharedassets1.resource",
@@ -2088,7 +1819,8 @@
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/sharedassets1.resource",
       "size": 3872,
       "last_updated_at": "2021-06-08T13:00:59Z",
-      "format": "simple"
+      "format": "simple",
+      "force": "false"
     }
   ]
 }
