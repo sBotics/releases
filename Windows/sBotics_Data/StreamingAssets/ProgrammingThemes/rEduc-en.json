@@ -31,7 +31,7 @@
             {
                 "name": "Keywords",
                 "color": "#CF7FC2",
-                "words": "others switch while repeat times for of until step do test case if then else"
+                "words": "others switch while repeat times for of until step do test case if then else task"
             },
             {
                 "name": "AuxiliaryKeywords",
