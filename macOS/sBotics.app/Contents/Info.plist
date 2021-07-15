@@ -7,7 +7,7 @@
     <key>CFBundleExecutable</key>
     <string>sBotics</string>
     <key>CFBundleGetInfoString</key>
-    <string>Unity Player version 2019.4.22f1 (9fdda2fe27ad). (c) 2021 Unity Technologies ApS. All rights reserved.</string>
+    <string>Unity Player version 2019.4.28f1 (1381962e9d08). (c) 2021 Unity Technologies ApS. All rights reserved.</string>
     <key>CFBundleIconFile</key>
     <string>PlayerIcon.icns</string>
     <key>CFBundleIdentifier</key>
@@ -40,6 +40,6 @@
     <key>NSPrincipalClass</key>
     <string>PlayerApplication</string>
     <key>UnityBuildNumber</key>
-    <string>9fdda2fe27ad</string>
+    <string>1381962e9d08</string>
   </dict>
 </plist>

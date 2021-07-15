@@ -1,0 +1,87 @@
+{
+  "forward": "W",
+  "forward_alias": "UpArrow",
+  "back": "S",
+  "back_alias": "DownArrow",
+  "left": "A",
+  "left_alias": "LeftArrow",
+  "right": "D",
+  "right_alias": "RightArrow", 
+  "reset": "R",
+  "raise": "Z",
+  "lower": "X",
+  "orthogonality": "PageUp",
+  "sprint": "LeftShift",
+  "sprint_alias": "RightShift",
+  "invert_mouse_y": false,
+  "lock_mouse": true,
+  "pan_left": "Q",
+  "pan_right": "E",
+  "pan_up": "C",
+  "pan_down": "V",
+  "speed_up": "Equals",
+  "speed_down": "Minus",
+  "toggle_game_panel": "Tab",
+  "toggle_console": "BackQuote",
+  "toggle_console_alias": "Quote",
+  "keyboard_panning_speed": 0.75,
+  "default_speed": 1.5,
+  "sensitivity": {
+    "change_in_mouse_position": {
+      "time": 0,
+      "value": 0.5,
+      "in_tangent": 0,
+      "out_tangent": 5
+    },
+    "multiplicative_factor_for_camera_rotation": {
+      "time": 1,
+      "value": 2.5,
+      "in_tangent": 0,
+      "out_tangent": 0
+    },
+    "preview_camera": {
+      "move_factor": 1,
+      "turn_factor": 120
+    }
+  },
+  "tile_manipulation": {
+    "id_negative": "Q",
+    "id_positive": "E",
+    "rotation": "R",
+    "type": "T",
+    "raise": "Equals",
+    "raise_alias": "KeypadPlus",
+    "lower": "Minus",
+    "lower_alias": "KeypadMinus",
+    "delete": "Delete",
+    "add": "Space",
+    "reset": "P",
+    "toggle_freecam": "O"
+  },
+  "positioning": {
+    "forward": "W",
+    "forward_alias": "UpArrow",
+    "back": "S",
+    "back_alias": "DownArrow",
+    "left": "A",
+    "left_alias": "LeftArrow",
+    "right": "D",
+    "right_alias": "RightArrow",
+    "raise_actuator": "Z",
+    "lower_actuator": "X",
+    "scoop_angle": "C",
+    "scoop_angle_reverse": "V",
+    "toggle_open_forklift": "B",
+    "read_values": "LeftShift"
+  },
+  "hotkeys": {
+    "activate": "LeftControl",
+    "activate_alias": "LeftApple",
+    "compile": "R",
+    "save": "B",
+    "save_compile": "S",
+    "replace": "H",
+    "undo": "Z",
+    "redo": "Y"
+  }
+}
