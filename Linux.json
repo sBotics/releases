@@ -45,7 +45,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/DiscordSDK.dll",
       "size": 90624,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -99,7 +99,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/RoslynCSharp.dll",
       "size": 67072,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -621,7 +621,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.EventManager.dll",
       "size": 5632,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -630,7 +630,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.IOBrowser.dll",
       "size": 15360,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -639,7 +639,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.JSONParser.dll",
       "size": 29184,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -648,7 +648,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.NewtorkingAPI.dll",
       "size": 29184,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -657,7 +657,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "size": 4096,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -666,7 +666,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
       "size": 175616,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -675,7 +675,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -684,7 +684,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -693,7 +693,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
       "size": 215040,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -702,7 +702,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -711,7 +711,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.TextEditor.dll",
       "size": 31744,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -720,7 +720,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.TextMeshPro.dll",
       "size": 369664,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -729,7 +729,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/Unity.Timeline.dll",
       "size": 109056,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -1098,7 +1098,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/UnityEngine.UI.dll",
       "size": 226304,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -1286,8 +1286,8 @@
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/Managed/sBotics.dll",
-      "size": 291840,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "size": 292864,
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
@@ -1628,8 +1628,8 @@
       "path": "sBotics_Data/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Linux/sBotics_Data/data.unity3d",
-      "size": 9071590,
-      "last_updated_at": "2021-07-28T00:50:59Z",
+      "size": 9072835,
+      "last_updated_at": "2021-07-28T20:45:09Z",
       "format": "simple"
     },
     {
