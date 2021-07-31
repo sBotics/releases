@@ -1,5 +1,5 @@
 {
-  "version": "1.6.1.5",
+  "version": "1.6.1.10",
   "force": "false",
   "download_link": "https://sbotics.weduc.natalnet.br",
   "data": [
@@ -279,7 +279,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/DiscordSDK.dll",
       "size": 90624,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -333,7 +333,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/RoslynCSharp.dll",
       "size": 67072,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -855,7 +855,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.EventManager.dll",
       "size": 5632,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -864,7 +864,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.IOBrowser.dll",
       "size": 15360,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -873,7 +873,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.JSONParser.dll",
       "size": 29184,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -882,7 +882,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.NewtorkingAPI.dll",
       "size": 29184,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -891,7 +891,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "size": 4096,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -900,7 +900,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
       "size": 175616,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -909,7 +909,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -918,7 +918,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -927,7 +927,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
       "size": 215040,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -936,7 +936,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
       "size": 3584,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -945,7 +945,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.TextEditor.dll",
       "size": 31744,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -954,7 +954,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll",
       "size": 369664,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -963,7 +963,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/Unity.Timeline.dll",
       "size": 109056,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -1341,7 +1341,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
       "size": 226304,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -1529,8 +1529,8 @@
       "path": "sBotics.app/Contents/Resources/Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/Managed/sBotics.dll",
-      "size": 290816,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "size": 293376,
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
@@ -1646,8 +1646,8 @@
       "path": "sBotics.app/Contents/Resources/Data/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/macOS/sBotics.app/Contents/Resources/Data/data.unity3d",
-      "size": 8538025,
-      "last_updated_at": "2021-07-22T22:14:16Z",
+      "size": 8626436,
+      "last_updated_at": "2021-07-31T17:29:00Z",
       "format": "simple"
     },
     {
