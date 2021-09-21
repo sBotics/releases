@@ -1,5 +1,5 @@
 {
-  "version": "1.6.2.1",
+  "version": "1.6.2.2",
   "force": "false",
   "download_link": "https://sbotics.weduc.natalnet.br",
   "data": [
@@ -9,7 +9,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
       "size": 780288,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -18,7 +18,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
       "size": 4973144,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -189,7 +189,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/UnityCrashHandler64.exe",
       "size": 1096280,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -197,8 +197,8 @@
       "path": "",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/UnityPlayer.dll",
-      "size": 26032728,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "size": 26096728,
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -207,7 +207,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics.exe",
       "size": 650752,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -225,7 +225,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/DiscordSDK.dll",
       "size": 90624,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -315,7 +315,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/RoslynCSharp.dll",
       "size": 67072,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -954,7 +954,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.EventManager.dll",
       "size": 5632,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -963,7 +963,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.IOBrowser.dll",
       "size": 15360,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -972,7 +972,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.JSONParser.dll",
       "size": 29184,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -981,7 +981,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.NewtorkingAPI.dll",
       "size": 29184,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -990,7 +990,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
       "size": 4096,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -999,7 +999,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
       "size": 175616,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1008,7 +1008,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1017,7 +1017,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "size": 3584,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1026,7 +1026,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
       "size": 215040,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1035,7 +1035,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
       "size": 3584,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1044,7 +1044,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.TextEditor.dll",
       "size": 31744,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1053,7 +1053,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.TextMeshPro.dll",
       "size": 369664,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1062,7 +1062,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/Unity.Timeline.dll",
       "size": 109056,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1161,7 +1161,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/UnityEngine.CoreModule.dll",
       "size": 1012736,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1224,7 +1224,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/UnityEngine.IMGUIModule.dll",
       "size": 156160,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1440,7 +1440,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/UnityEngine.UI.dll",
       "size": 226304,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1448,8 +1448,8 @@
       "path": "sBotics_Data/Managed/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/UnityEngine.UIElementsModule.dll",
-      "size": 729088,
-      "last_updated_at": "2021-08-07T03:39:18Z",
+      "size": 729600,
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1629,7 +1629,7 @@
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Managed/sBotics.dll",
       "size": 296960,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1646,8 +1646,8 @@
       "path": "sBotics_Data/Resources/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/Resources/unity%20default%20resources",
-      "size": 3837020,
-      "last_updated_at": "2021-07-08T00:42:03Z",
+      "size": 3837044,
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
@@ -1772,8 +1772,8 @@
       "path": "sBotics_Data/",
       "type": "file",
       "download": "https://raw.githubusercontent.com/sBotics/releases/master/Windows/sBotics_Data/data.unity3d",
-      "size": 8161947,
-      "last_updated_at": "2021-09-19T04:39:30Z",
+      "size": 8163860,
+      "last_updated_at": "2021-09-21T18:28:04Z",
       "format": "simple"
     },
     {
